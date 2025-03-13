@@ -14,7 +14,7 @@ Source code and data for our paper "Detecting Technical Debt from Method-level C
 │  utils_fasttext.py        
 │  loss.py                  # Loss computation
 │  THUCNews/                # dataset for processing
-│  dataset/                 # dataset
+│  dataset/                 # dataset for training
 └─models/                   # Different model architectures
        ├── CNNTransformer-Seq-TC.py
        ├── CNNTransformer-Seq.py
@@ -40,15 +40,19 @@ nohup python -u run_cmd.py --model CNNTransformer-Seq --dataset BFS --device 0 >
 
 ### RQ-PadSize
 ```bash
-nohup python -u run_batch_padsize.py --model CNNTransformer-Seq --dataset DFS --device 0 > TDD-TCNN-PadSize.output 2>&1 &
-nohup python -u run_cmd.py --model CNNTransformer-Seq --dataset DFS --use_max_padsize --device 0 > TDD-TCNN-MaxPad.output 2>&1 &
+nohup python -u run_batch_padsize.py --model CNNTransformer-Seq --dataset DFS-Selected60 --device 0 > TDD-TCNN-PadSize.output 2>&1 &
+nohup python -u run_cmd.py --model CNNTransformer-Seq --dataset DFS-Selected60 --use_max_padsize --device 0 > TDD-TCNN-MaxPad.output 2>&1 &
 ```
 
 ### RQ-Feature Selection
 ```bash
 nohup python -u run_batch_fs.py --model CNNTransformer-Seq --device 0 > TDD-TCNN-FS.output 2>&1 &
-nohup python -u run_cmd.py --model CNNTransformer-Seq --dataset DFS-Selected60 --device 0 > TDD-TCNN-LG.output 2>&1 &  # Same as the first command in RQ-Baseline
-nohup python -u run_cmd.py --model CNNTransformer-Seq-TC --dataset DFS --device 0 > TDD-TCNN-GL.output 2>&1 &
+```
+
+### RQ-Order of Local and Global Feature Extraction
+```bash
+nohup python -u run_cmd.py --model CNNTransformer-Seq --dataset DFS-Selected60 --device 0 > TDD-TCNN-LG.output 2>&1 & 
+nohup python -u run_cmd.py --model CNNTransformer-Seq-TC --dataset DFS-Selected60 --device 0 > TDD-TCNN-GL.output 2>&1 &
 ```
 
 ## Notes
