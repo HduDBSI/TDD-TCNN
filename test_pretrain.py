@@ -6,9 +6,9 @@ UNK, PAD = '<UNK>', '<PAD>'  # 未知字，padding符号
 
 
 # # 预训练的词向量文件路径
-# vec_path = "/data/lsc/embedding/wiki-news-300d-1M.vec"
+# vec_path = "/data/embedding/wiki-news-300d-1M.vec"
 # # 转换成的bin文件名称
-embed_path = "/data/lsc/embedding/wiki-news-300d-1M.bin"
+embed_path = "/data/embedding/wiki-news-300d-1M.bin"
 # # 加载词向量文件
 # wv_from_text = gensim.models.KeyedVectors.load_word2vec_format(vec_path, binary=False,limit=20000)
 #
@@ -29,18 +29,18 @@ word_embedding = wv_from_text.syn0
 word_embedding=np.r_[word_embedding,[np.zeros(300)],[np.zeros(300)]]
 
 # 将向量和词保存下来
-word_embed_save_path = "/data/lsc/embedding/fasttest-emebed.ckpt"
-word_save_path = "/data/lsc/embedding/fasttest-word.ckpt"
+word_embed_save_path = "/data/embedding/fasttest-emebed.ckpt"
+word_save_path = "/data/embedding/fasttest-word.ckpt"
 np.save(word_embed_save_path, word_embedding)
 pd.to_pickle(vocab, word_save_path)
 
 # 加载保存的向量和词
-weight_numpy = np.load(file="/data/lsc/embedding/fasttest-emebed.ckpt.npy")
+weight_numpy = np.load(file="/data/embedding/fasttest-emebed.ckpt.npy")
 vocab = pd.read_pickle(word_save_path)
 word2idx = {word: idx for idx, word in enumerate(vocab)}
 idx2word = {idx: word for idx, word in enumerate(vocab)}
-pd.to_pickle(word2idx, "/data/lsc/embedding/fasttest-word2idx.ckpt")
-pd.to_pickle(idx2word, "/data/lsc/embedding/fasttext-idx2word.ckpt")
+pd.to_pickle(word2idx, "/data/embedding/fasttest-word2idx.ckpt")
+pd.to_pickle(idx2word, "/data/embedding/fasttext-idx2word.ckpt")
 
 # 加载
 embedding =torch.nn.Embedding.from_pretrained(torch.FloatTensor(weight_numpy))
