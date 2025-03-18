@@ -15,7 +15,7 @@ Source code and data for our paper "Detecting Technical Debt from Method-level C
 │  loss.py                  # Loss computation
 │  THUCNews/                # dataset for processing
 │  dataset/                 # dataset for training
-└─models/                   # Different model architectures
+└─ models/                  # Different model architectures
        ├── CNNTransformer-Seq-TC.py
        ├── CNNTransformer-Seq.py
        ├── TextCNN.py
