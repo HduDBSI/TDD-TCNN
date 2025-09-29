@@ -152,28 +152,33 @@ def evaluate(config, model, data_iter, test=False):
     with torch.no_grad():
         for texts, labels in data_iter:
             outputs = model(texts)
-            # weight_vec=torch.tensor([1.,10.]).to(config.device)
-            # loss_val = F.cross_entropy(outputs, labels,weight=weight_vec)
-            loss_val = F.cross_entropy(outputs,labels)
-            # loss_val=FocalLoss().forward(outputs,labels)
-
-            # lf=MultiCEFocalLoss(3,config,alpha=torch.tensor([0.25,0.1,0.05]))
-            # loss_val = lf(outputs,labels)
+            loss_val = F.cross_entropy(outputs, labels)
             loss_total += loss_val
 
-            labels = labels.data.cpu().numpy()
+            labels_np = labels.data.cpu().numpy()
             predic = torch.max(outputs.data, 1)[1].cpu().numpy()
-            labels_all = np.append(labels_all, labels)
+            labels_all = np.append(labels_all, labels_np)
             predict_all = np.append(predict_all, predic)
 
     acc = metrics.accuracy_score(labels_all, predict_all)
     if test:
-        report = metrics.classification_report(labels_all, predict_all, target_names=config.class_list, digits=4)
+        # 只使用实际出现的类别，避免分类报告报错
+        unique_labels = sorted(list(set(labels_all) | set(predict_all)))
+        # 保证 target_names 与 labels 对应
+        target_names = [config.class_list[i] for i in unique_labels]
+
+        report = metrics.classification_report(
+            labels_all,
+            predict_all,
+            labels=unique_labels,
+            target_names=target_names,
+            digits=4
+        )
         confusion = metrics.confusion_matrix(labels_all, predict_all)
-        test_precision = precision_score(labels_all,predict_all)
-        test_recall = recall_score(labels_all,predict_all)
-        test_f1 = f1_score(labels_all,predict_all)
-        # test_acc = accuracy_score(labels_all,predict_all)
-        # test_auc = roc_auc_score(labels_all,predict_all)
-        return acc, loss_total / len(data_iter), report, confusion,test_precision,test_recall,test_f1
+        test_precision = precision_score(labels_all, predict_all, zero_division=0)
+        test_recall = recall_score(labels_all, predict_all, zero_division=0)
+        test_f1 = f1_score(labels_all, predict_all, zero_division=0)
+
+        return acc, loss_total / len(data_iter), report, confusion, test_precision, test_recall, test_f1
+
     return acc, loss_total / len(data_iter)

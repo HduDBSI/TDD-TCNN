@@ -1,0 +1,163 @@
+"odd number list for Hash." yyVal	1
+"closed stream" This	0
+"yield out of block" getRuntime	0
+"File exists - MemberReference fromStr Literal or MemberReference toStr newErrnoEEXISTError CatchClause CatchClauseParameter java.lang.UnsatisfiedLinkError ule ThrowStatement MethodInvocation runtime Literal "link() function is unimplemented on this machine" newFixnum	1
+"Op Element Asgn with zero-arity args" getVariableCompiler	1
+"require Literal => Literal require Literal eval StatementExpression MethodInvocation Literal "should raise exception" assertTrue	0
+"Cannot use AutoPointer with MemoryPointer or AutoPointer instances" newTypeError	1
+"wrong argument type MethodInvocation arg getMetaClass Literal (expected Fixnum)" pow	1
+"frozen object (" ") allocated" callMethod	1
+"interface list was not an array" invoke	1
+"float MemberReference aFloat Literal out of of integer" getRuntime	1
+"Op Element Asgn with zero-arity args" getVariableCompiler	1
+"block supersedes default value argument" value	1
+"unexpected break" "unexpected newLocalJumpError CatchClause CatchClauseParameter StackOverflowError soe ThrowStatement MethodInvocation runtime Literal "stack level too deep" lastFrame	1
+"' not initialized" getNil	1
+"block not supplied" getRuntime	0
+", Visibility." "-1, \"" generateMethodAddCalls	1
+"Permission denied" This	1
+"yield out of block" getRuntime	1
+"---- Data Flow Vars: ----\n" toString	1
+"void MemberReference irMethod Literal getMethod Literal null Literal null MethodInvocation cls StatementExpression MethodInvocation adapter loadThis StatementExpression MethodInvocation adapter loadArgs StatementExpression MethodInvocation adapter MethodInvocation Type ClassReference ReferenceType Object getType MethodInvocation Method BinaryOperation + BinaryOperation + Literal __ruby__" endMethod	1
+"can't make alias for the number variables" yyVal	1
+"yield out of block" getRuntime	0
+"Cannot have .. at the start of an absolute path" canonicalize	1
+"return can't jump across threads" rj	1
+"no outer class/module" MemberReference	1
+"Invalid char `" "' Cast BasicType char MemberReference c Literal "') in expression" identifierToken	1
+"Could not copy of digest (" This	1
+"<init>" getMatchingDeclaredMethod	1
+"uninitialized struct" name	0
+"A sample BSF LocalVariableDeclaration Modifier final ReferenceType JMenuBar VariableDeclarator menubar ClassCreator ReferenceType JMenuBar LocalVariableDeclaration Modifier final ReferenceType VariableDeclarator input ClassCreator ReferenceType Literal "$frame.setTitle(\"A new title\")" setDefaultCloseOperation	1
+"constant re-assignment" yyVal	1
+"primitives do not null" argument	1
+"wrong argument type MemberReference ArraySelector Literal 1 MethodInvocation getMetaClass MethodInvocation getName args Literal (expected FFI::Type)" "wrong argument type MemberReference ArraySelector Literal 2 MethodInvocation getMetaClass MethodInvocation getName args Literal (expected Integer)" storeField	1
+"Process::UID::change_privilege not implemented yet" getRuntime	1
+"url was null" runtime	1
+"Illegal - probably recycled" obj	1
+"SHA2 not supported" defineFastMethod	1
+"negative length MemberReference length Literal given" readNotAll	1
+"not an integer" f_expt	1
+"negative array size (or size too big)" makeShared	0
+"can't convert MethodInvocation str getMetaClass Literal "to String" tmp	1
+"not a java array" getRuntime	0
+"flags ignored" initializeCommon19	1
+"Do not use as warn getRuntime ThrowStatement MethodInvocation MethodInvocation BinaryOperation + MemberReference Literal is not a symbol" getRuntime	0
+"No such directory" newFixnum	0
+"thread MethodInvocation Thread currentThread Literal before raising" "thread MethodInvocation Thread currentThread Literal raising" This	1
+"dynamic constant assignment" yyVal	1
+"coerce must return [x, y]" result	1
+"odd number of args for Hash" hash	1
+"wrong type argument MethodInvocation finalizer getType Literal (should be callable)" newArray	1
+"string modified" getRuntime	1
+"yield out of block" getRuntime	0
+"can't define singleton method \"" rubyClass	0
+"failed to MemberReference size Literal bytes of native memory" t	1
+"first element nil" "second element nil" "first element nil" "second element not nil" assertSame	0
+"autoload must be constant name" "empty file name" getNil	1
+"bind: name or service not known" "bind: name or service not known" "bind: name or service not known" e	1
+"Invalid pointer value" "Invalid pointer value" putReference	0
+"wrong argument type. Expected true or false" 0	1
+"Permission denied" newFixnum	1
+"*** Dumping ***\n" getMethodVisitor	1
+"buffer error" "need dictionary" end	1
+"identifier MemberReference name Literal needs to be constant" "redefining constant Struct::" newStruct	1
+"NoSuchMethodException: Cannot get method \"" "SecurityException: Cannot get method \"" Reflection."	1
+"File exists - MemberReference fromStr Literal or MemberReference toStr newErrnoEEXISTError CatchClause CatchClauseParameter java.lang.UnsatisfiedLinkError ule ThrowStatement MethodInvocation runtime Literal "symlink() function is unimplemented on this machine" newFixnum	1
+"negative length MemberReference length Literal given" getRuntime	1
+"don't put space before argument parentheses" yyVal	1
+"invalid Unicode range" raisePreprocessError	1
+"invalid group name reference format" val	1
+"frozen object (" ") allocated" callMethod	1
+"wrong number of arguments(" "wrong number of arguments(" getNil	1
+"Trying to get block from which cannot deliver" null	1
+":in '" print	0
+"stdcall" "invalid return type" conv	1
+"block not supplied" evalUnder	1
+"getaddrinfo: No address with nodename" "pack_sockaddr_in: internal error" getRuntime	1
+"Use compileRoot(); Root node at: MethodInvocation node getPosition SwitchStatementCase SCLASSNODE StatementExpression MethodInvocation MemberReference node MemberReference context MemberReference expr compileSClass BreakStatement SwitchStatementCase SELFNODE StatementExpression MethodInvocation MemberReference node MemberReference context MemberReference expr compileSelf BreakStatement SwitchStatementCase SPLATNODE StatementExpression MethodInvocation MemberReference node MemberReference context MemberReference expr compileSplat BreakStatement SwitchStatementCase STRNODE StatementExpression MethodInvocation MemberReference node MemberReference context MemberReference expr compileStr BreakStatement SwitchStatementCase SUPERNODE StatementExpression MethodInvocation MemberReference node MemberReference context MemberReference expr compileSuper BreakStatement SwitchStatementCase SVALUENODE StatementExpression MethodInvocation MemberReference node MemberReference context MemberReference expr compileSValue BreakStatement SwitchStatementCase SYMBOLNODE StatementExpression MethodInvocation MemberReference node MemberReference context MemberReference expr compileSymbol BreakStatement SwitchStatementCase TOARYNODE StatementExpression MethodInvocation MemberReference node MemberReference context MemberReference expr compileToAry BreakStatement SwitchStatementCase TRUENODE StatementExpression MethodInvocation MemberReference node MemberReference context MemberReference expr compileTrue BreakStatement SwitchStatementCase UNDEFNODE StatementExpression MethodInvocation MemberReference node MemberReference context MemberReference expr compileUndef BreakStatement SwitchStatementCase UNTILNODE StatementExpression MethodInvocation MemberReference node MemberReference context MemberReference expr compileUntil BreakStatement SwitchStatementCase VALIASNODE StatementExpression MethodInvocation MemberReference node MemberReference context MemberReference expr compileVAlias BreakStatement SwitchStatementCase VCALLNODE StatementExpression MethodInvocation MemberReference node MemberReference context MemberReference expr compileVCall BreakStatement SwitchStatementCase WHILENODE StatementExpression MethodInvocation MemberReference node MemberReference context MemberReference expr compileWhile BreakStatement SwitchStatementCase WHENNODE AssertStatement Literal false Literal "When nodes are handled by node compilation." node	1
+"multiple values for a block parameter (" getWarnings	0
+"wrong argument type MemberReference ArraySelector Literal 1 MethodInvocation getMetaClass MethodInvocation getName args Literal (expected Integer)" storeField	1
+"tried to array" modified	1
+"INTERMEDIATE REPRESENTATION:" "\nGENERATED BYTECODE:" scope	1
+"zero width padding" justifyCommon	1
+"undefined method '" "' for TernaryExpression MethodInvocation isModule Literal Literal Literal '" invalidateCacheDescendants	1
+"not opened for writing" getRuntime	0
+"Both block arg and actual block given." yyVal	1
+"offset MemberReference idx Literal too large for struct (size:" "offset MemberReference idx Literal too large for struct (size:" values	1
+"can't make subclass of virtual class" getRuntime	0
+"already initialized class" "can't copy singleton class" This	1
+"invokee not a java object" "invokee not instance of method's class (" invokeWithExceptionHandling	1
+"failed to convert MethodInvocation other MethodInvocation getName getMetaClass Literal into Integer" getRuntime	1
+"can't define single method for ()." "can't define single method for literals." yyVal	1
+"should have an exception" re	1
+"Insecure: can't close" "closing non-duplex IO for reading" This	1
+"closed stream" getRuntime	0
+"can't raise a non-Throwable Java object" raise	1
+"<anon class>" println	1
+"Symbol as array index" arefCommon	1
+"extending class prohibited" clazz	1
+"File not found" newRaiseException	0
+"in a**b, b may be too big" "in a**b, b may be too big" newFloat	1
+"not a java array" getRuntime	0
+"no stream" getData	1
+"JRuby does not support string for second fcntl/ioctl argument yet" "JRuby only F_SETFL and F_GETFL with NONBLOCK for fcntl/ioctl" newFixnum	1
+"history shift error" newIndexError	1
+"Insecure: can't define method" method	1
+"wrong argument class" This	1
+"type mismatch: MethodInvocation sub MethodInvocation getName getMetaClass Literal given" newFixnum	1
+"argument must be positive" newTypeError	1
+"queue size must be positive" getRuntime	1
+"first element nil" "second element nil" "first element nil" "second element not nil" assertSame	0
+"ZipException trying to access MemberReference loadPathEntry Literal ", stack trace follows:" foundResource	1
+"yield out of block" getRuntime	0
+"wrong of least newArgumentError getRuntime LocalVariableDeclaration ReferenceType IRubyObject VariableDeclarator MemberReference ArraySelector Literal 0 args LocalVariableDeclaration ReferenceType IRubyObject VariableDeclarator io Literal null LocalVariableDeclaration BasicType int VariableDeclarator depthLimit Literal - 1 IfStatement BinaryOperation >= MemberReference args length Literal 2 BlockStatement IfStatement MemberReference ArraySelector Literal 1 MethodInvocation Literal respondsTo args BlockStatement StatementExpression Assignment MemberReference io MemberReference ArraySelector Literal 1 args = IfStatement BinaryOperation instanceof MemberReference ArraySelector Literal 1 args ReferenceType RubyFixnum BlockStatement StatementExpression Assignment MemberReference depthLimit Cast BasicType int Cast ReferenceType RubyFixnum MemberReference ArraySelector Literal 1 args = BlockStatement ThrowStatement MethodInvocation recv MethodInvocation Literal of IO needed" getRuntime	0
+"formal argument cannot be a class variable" yyVal	1
+"block given to yield" "Both block arg and actual block given." yyVal	1
+"uninitialized class" getNil	1
+"a = 0; while a < 1000; a += 1; end" notify	1
+"undefined class/module MemberReference className newArgumentError ThrowStatement MemberReference e IfStatement BinaryOperation instanceof MemberReference classInstance ReferenceType RubyClass BlockStatement ThrowStatement MethodInvocation runtime BinaryOperation + MemberReference className Literal does not refer class" classInstance	1
+"unterminated here document identifier" tSTRING_BEG	1
+"negative array size" makeShared	0
+"Cannot convert pointer to 32bit integer" getRuntime	1
+"in a**b, b may be too big" "in a**b, b may be too big" dbl2num	1
+"class or module required" getRuntime	1
+"uninitialized Regexp" getRuntime	1
+"unexpected break" "stack level too deep" setLine	1
+"initialize_copy should take same class object" This	1
+"void <init>(java.lang.Throwable)" endMethod	1
+"x86" "i386" "i86pc" "x86_64" "amd64" "ppc" "powerpc" "ppc64" "sparc" "sparcv9" "s390x" UNKNOWN	1
+"' not initialized" getNil	0
+"multiple values for a block parameter (" value	1
+"Script loaded from MemberReference Literal should exist" exec	0
+"uninitialized class" getNil	1
+"dynamic constant assignment" yyVal	1
+"Invalid file" newRaiseException	0
+"END in method; use at_exit" yyVal	1
+"no class/module to define class variable" value	1
+"class or module required" "ObjectSpace is disabled; each_object will only work with Class, pass -X+O to enable" getRuntime	1
+"Insecure: can't remove method" "method '" callMethod	1
+"Insecure: can't close" "closing non-duplex IO for writing" getRuntime	1
+"can't convert MethodInvocation s getMetaClass Literal into String" "Shift_JIS" "windows-31j" "EUC-JP" "ISO-2022-JP" newFixnum	1
+"no class to make alias" getNil	1
+":in `" append	1
+"Ambiguous first argument; make sure." warning	1
+"can't convert MethodInvocation key getMetaClass Literal into String" "can't convert MethodInvocation value getMetaClass Literal into String" op_aset	1
+"Permission denied - \"" newFixnum	1
+"/.../n has a non escaped non ASCII character in non ASCII-8BIT script" initializeCommon19	1
+"Java methods can only be on Java objects" proxy	1
+"Cannot set Struct fields" newNotImplementedError	0
+"unexpected return" "unexpected break" context	1
+"Default" createPackageModule	1
+"Invalid type for modes" newTypeError	1
+"given block not used" getNil	1
+"' allowed only after types MemberReference NATIVE_CODES newArgumentError StatementExpression Assignment MemberReference type MethodInvocation MAPPED_CODES MemberReference index charAt = StatementExpression Assignment MemberReference next MethodInvocation MemberReference format safeGet = LocalVariableDeclaration BasicType int VariableDeclarator occurrences Literal 0 IfStatement BinaryOperation == MemberReference next Literal 0 BlockStatement StatementExpression Assignment MemberReference occurrences Literal 1 = BlockStatement IfStatement BinaryOperation == MemberReference next Literal '*' BlockStatement StatementExpression Assignment MemberReference occurrences MemberReference IS_STAR = StatementExpression Assignment MemberReference next MethodInvocation MemberReference format safeGet = IfStatement MethodInvocation ASCII MemberReference next isDigit BlockStatement StatementExpression Assignment MemberReference occurrences Literal 0 = DoStatement BinaryOperation && BinaryOperation != MemberReference next Literal 0 MethodInvocation ASCII MemberReference next isDigit BlockStatement StatementExpression Assignment MemberReference occurrences BinaryOperation + BinaryOperation * MemberReference occurrences Literal 10 MethodInvocation Character Cast BasicType char BinaryOperation & MemberReference next Literal 0xFF Literal 10 digit = StatementExpression Assignment MemberReference next MethodInvocation MemberReference format safeGet = BlockStatement StatementExpression Assignment MemberReference occurrences TernaryExpression BinaryOperation == MemberReference type Literal '@' Literal 0 Literal 1 = LocalVariableDeclaration ReferenceType VariableDeclarator converter MemberReference ArraySelector MemberReference type converters IfStatement BinaryOperation != MemberReference converter Literal null BlockStatement StatementExpression MethodInvocation MemberReference runtime MemberReference encode MemberReference occurrences MemberReference result MemberReference converter decode StatementExpression Assignment MemberReference type MemberReference next = ContinueStatement SwitchStatement MemberReference type SwitchStatementCase Literal '@' TryStatement IfStatement BinaryOperation == MemberReference occurrences MemberReference IS_STAR BlockStatement StatementExpression MethodInvocation encode MethodInvocation encode remaining position BlockStatement StatementExpression MethodInvocation encode MemberReference occurrences position CatchClause CatchClauseParameter IllegalArgumentException iae ThrowStatement MethodInvocation runtime Literal "@ outside of string" "% is not supported" "in `unpack': X outside of string" "in `unpack': x outside of string" result	1
+"Invalid escape character syntax" append	1
+"duplicate argument name" yyVal	1
+"argument too big" This	1
+":in `" ":in `<main>'" append	1
+"Hexadecimal number without hex-digits." "Trailing '_' in number." "Binary number without digits." "Trailing '_' in number." "Binary number without digits." "Trailing '_' in number." "Trailing '_' in number." "Illegal octal digit." "Trailing '_' in number." "Trailing '_' in number." "Trailing '_' in number." getNumberToken	1
+"compiled: MethodInvocation node MethodInvocation getFile getPosition println CatchClause CatchClauseParameter NotCompilableException nce IfStatement BinaryOperation || MethodInvocation config isJitLoggingVerbose MethodInvocation config isDebug BlockStatement StatementExpression MethodInvocation System.err BinaryOperation + Literal "Error -- Not compileable: MethodInvocation nce getMessage println StatementExpression MethodInvocation nce printStackTrace BlockStatement StatementExpression MethodInvocation System.err Literal "Error, could not compile; pass -d or -J-Djruby.jit.logging.verbose=true for more details" "Error -- Not compileable: MethodInvocation e getMessage println StatementExpression MethodInvocation e printStackTrace BlockStatement StatementExpression MethodInvocation System.err Literal "Error, could not compile; pass -d or -J-Djruby.jit.logging.verbose=true for more details" "Error -- Not compileable: MethodInvocation e getMessage println StatementExpression MethodInvocation e printStackTrace BlockStatement StatementExpression MethodInvocation System.err Literal "Error, could not compile; pass -d or -J-Djruby.jit.logging.verbose=true for more details" "Error -- Not compileable: MethodInvocation e getMessage println StatementExpression MethodInvocation e printStackTrace BlockStatement StatementExpression MethodInvocation System.err Literal "Error, could not compile; pass -d or -J-Djruby.jit.logging.verbose=true for more details" "could not compile: MethodInvocation node MethodInvocation getFile getPosition Literal because of: \"" "Error, could not compile; pass -d or -J-Djruby.jit.logging.verbose=true for more details" script	1
+"given block not used" newFixnum	1
+"undefined class/module MethodInvocation moduleName asJavaString newArgumentError ThrowStatement MemberReference e StatementExpression Assignment MemberReference rubyObj MethodInvocation unmarshalObject = StatementExpression MethodInvocation tp MemberReference rubyObj extend_object StatementExpression MethodInvocation tp MethodInvocation runtime getCurrentContext Literal MemberReference rubyObj callMethod BreakStatement SwitchStatementCase Literal 'l' StatementExpression Assignment MemberReference rubyObj MethodInvocation RubyBignum This unmarshalFrom = BreakStatement SwitchStatementCase Literal 'S' StatementExpression Assignment MemberReference rubyObj MethodInvocation RubyStruct This unmarshalFrom = BreakStatement SwitchStatementCase Literal 'o' StatementExpression Assignment MemberReference rubyObj MethodInvocation defaultObjectUnmarshal = BreakStatement SwitchStatementCase Literal 'u' StatementExpression Assignment MemberReference rubyObj MethodInvocation = BreakStatement SwitchStatementCase Literal 'U' StatementExpression Assignment MemberReference rubyObj MethodInvocation = BreakStatement SwitchStatementCase Literal 'C' StatementExpression Assignment MemberReference rubyObj MethodInvocation = BreakStatement SwitchStatementCase ThrowStatement MethodInvocation MethodInvocation BinaryOperation + BinaryOperation + Literal "dump format error(" rubyObj	1
+"out of Float range" "out of Float range" newFloat	1

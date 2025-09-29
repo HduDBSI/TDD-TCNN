@@ -1,0 +1,98 @@
+"Category 1" assertFalse	0
+"Series 1" "Series 2" "Category 1" "Category 2" "Category 3" "Category 2" "Series 1" "Category 2" "Category 2" "Category 2" assertTrue	1
+") not recognised." index	0
+"The 'bins' value must be at least 1." fireDatasetChanged	1
+"The 'directory' argument is not a directory." =	1
+"Series 1" assertEquals	0
+"Series index out of bounds." fireDatasetChanged	1
+"Series 1" assertEquals	0
+"Series {0}" assertTrue	1
+"Not yet implemented." "Not yet implemented." "Not yet implemented." "Not yet implemented." "Not yet implemented." calculateTotalHeight	1
+"Series 1" "Series 1" "Series 1" "Series 1" assertTrue	1
+"Category 1" "Category 2" "Category 1" "Category 2" "Category A" "Category A" "Category B" "Category B" assertTrue	1
+"Series 1" assertEquals	0
+"No exception should be thrown." fail	1
+"Series {0}" "Series {0}" assertTrue	0
+"Test Series" assertTrue	0
+"Cloning failed." assertTrue	1
+"Expected IndexOutOfBoundsException." "Expected IndexOutOfBoundsException." "Expected IndexOutOfBoundsException." e	1
+"Series index out of bounds" get	1
+"Null 'key' argument." result	0
+"Null argument." alpha	0
+"Series 1" assertTrue	0
+"Null '" argument."	0
+"Unrecognised sort order." "Unrecognised sort order." "Unrecognised type." result	1
+"Type 1" "Type 2" "Type 3" assertSame	0
+"No exception should be triggered." fail	0
+"I/O error occurred." "Save As PNG" "I/O error occurred." "Save As SVG" MethodInvocation	1
+"Type 1" "Type 2" "Type 3" "Type LocalVariableDeclaration ReferenceType String VariableDeclarator type5 Literal "Type LocalVariableDeclaration ReferenceType String VariableDeclarator type6 Literal "Type 6" "Type 7" "Type 8" result	0
+"Series 1" "Series 1" "Series 2" "Series 2" assertEquals	0
+"No exception should be triggered." fail	0
+"Unable to display the with the filename '" found"	1
+"No exception should be thrown." fail	1
+"Task 1" "Task 2" "Task 2" assertTrue	1
+"Series 1" "Series 2" assertEquals	0
+"Series 1" assertEquals	1
+"L&G Index Trust" "L&G UK Index Trust" dataset	0
+"No exception should be thrown." fail	0
+"There should be no exception." fail	0
+"only color is supported at present... Literal "setting paint to uniform black color" getBlue	1
+"Null argument." sort	0
+"Series 1" assertFalse	1
+"Series 1" assertEquals	1
+"Rotation type not recognised." center	1
+"Test Literal "Domain Literal MemberReference dataset createXYLineChart LocalVariableDeclaration ReferenceType JFreeChart VariableDeclarator chart2 Cast ReferenceType JFreeChart MethodInvocation TestUtilities MemberReference serialised StatementExpression MethodInvocation MemberReference MemberReference chart2 assertEquals TryStatement StatementExpression MethodInvocation chart2 Literal 300 Literal 200 CatchClause CatchClauseParameter Exception e StatementExpression MethodInvocation Literal "No exception should be thrown." fail	0
+"Series in dataset 2" assertEquals	0
+"Test Literal "Domain Literal MemberReference dataset createXYLineChart LocalVariableDeclaration ReferenceType XYPlot VariableDeclarator plot Cast ReferenceType XYPlot MethodInvocation StatementExpression MethodInvocation plot ClassCreator ReferenceType ValueMarker Literal 1.0 MemberReference Layer FOREGROUND StatementExpression MethodInvocation plot ClassCreator ReferenceType IntervalMarker Literal 2.0 Literal 3.0 MemberReference Layer BACKGROUND StatementExpression MethodInvocation plot ClassCreator ReferenceType ValueMarker Literal 4.0 MemberReference Layer FOREGROUND addRangeMarker StatementExpression MethodInvocation plot ClassCreator ReferenceType IntervalMarker Literal 5.0 Literal 6.0 MemberReference Layer BACKGROUND addRangeMarker LocalVariableDeclaration ReferenceType JFreeChart VariableDeclarator chart2 Cast ReferenceType JFreeChart MethodInvocation TestUtilities MemberReference serialised StatementExpression MethodInvocation MemberReference MemberReference chart2 assertEquals TryStatement StatementExpression MethodInvocation chart2 Literal 300 Literal 200 CatchClause CatchClauseParameter Exception e StatementExpression MethodInvocation Literal "No exception should be thrown." fail	0
+"Series 1" "Series 2" "Series 3" assertEquals	1
+"Series 1" "Series 2" "No exception should be thrown." fail	0
+"Series 1" "Task with null duration" "Series 1" "Task with null duration" assertTrue	0
+"Series 1" assertEquals	0
+"domainValueEnd (" ") < domainValueStart (" contains	1
+"There should be no exception." fail	0
+"Unrecognised title position." result	1
+"Series 2" series2	0
+"Series 3" series2	0
+"Series 1" assertTrue	0
+"Column 1" "Column 2" "Column 1" "Column 2" assertEquals	0
+"Require weight >= 1." fireChangeEvent	0
+"Series 1" assertEquals	1
+"Value for width out of range" fireChangeEvent	0
+"There should be no exception." fail	0
+"Values than or equal to Literal "zero not allowed with logarithmic axis" setupSmallLogFlag	1
+"Series 1" "Series 2" assertEquals	0
+"Series index out of bounds." fireDatasetChanged	1
+"Bright TernaryExpression MemberReference greenForIncrease Literal Literal Literal "=change >=-" "%, Bright TernaryExpression MemberReference ! greenForIncrease Literal Literal Literal "=change >=+" MemberReference	1
+"Empty Series" "Empty Series" assertTrue	1
+"New ToolTip" "New ToolTip" "New URL" "New URL" assertTrue	1
+"Series 1" dataset	0
+"Key 1" "Key 2" "Key 3" "Key 3" "Key 1" "Key 3" assertTrue	0
+"Series index out of bounds" seriesArray	1
+"Series 1" "Series 1" "Series 2" "Series 2" assertTrue	1
+"Task 1" "Task 2" "Task 3" "Task 1" "Task 2" "Task 3" "Task 2" "Task 2" assertTrue	1
+"JdbcXYDataset: swallowing exception." println	1
+"URL A1" "URL A2" "URL A3" "URL add StatementExpression MethodInvocation u2 Literal "URL B2" assertEquals	0
+"Series 1" "Series 2" "No exception should be thrown." fail	0
+"Series 1" "Series 2" assertTrue	0
+"Missing Q." "Q found at end of string." result	1
+"Series 1" collection	1
+"Type 1" "Type 2" "Type 3" "Type LocalVariableDeclaration ReferenceType String VariableDeclarator type5 Literal "Type LocalVariableDeclaration ReferenceType String VariableDeclarator type6 Literal "Type 6" "Type 7" "Type 8" result	0
+"Not implemented." "Not implemented." "Not implemented." "Not implemented." calculateTotalHeight	1
+"The renderer has changed and I don't know what to do!" notifyListeners	1
+"No exception should be triggered." fail	0
+"Series in dataset 2" assertTrue	0
+"IllegalArgumentException should have been thrown on null key" "Null 'key' argument." assertEquals	0
+"Not enough data." result	1
+"Duplicate items in 'rowKeys'." "Duplicate items in 'columnKeys'." "The number of row keys does not match the number of rows in Literal "the data array." "The number of column keys does not match the number of Literal "columns in the data array." result	1
+"There should be no exception." fail	0
+"Key 1" "Key 2" "Key 3" "Key 1" "Key 2" "Key 3" "Key 2" "Key 3" "Key 2" "Key 3" assertTrue	0
+"Series index out of bounds" get	1
+"Series 1" createScatterPlot	0
+"Series index out of bounds" get	1
+"URL A1" "URL A2" "URL A3" assertTrue	0
+"Series {0}" assertTrue	1
+"Series 1" dataset	0
+"Domain 1" "Domain 2" assertTrue	0
+"Task 1" "Task 2" "Task 3" "Task 2" "Task 3" assertEquals	0
+"The argument must be > 0.0" fireChangeEvent	0
+"Column 1" "Column 2" assertEquals	0

@@ -1,0 +1,295 @@
+"periodCount must be greater Literal "than or equal to 1." result	1
+"Task 1" "Task 1" "Task 2" "Task 2" "Task 3" "Task 3" assertEquals	1
+"Test 1" "Test 1" assertTrue	1
+"Series 1" assertEquals	1
+"Series 1" assertTrue	0
+"Series 1" "Series 1" "Series 1" assertEquals	0
+"Series 1" dataset	0
+"Series 1" "Series 2" "No exception should be thrown." fail	0
+"Series 1" assertEquals	1
+"Domain ClassCreator ReferenceType NumberAxis Literal ClassCreator ReferenceType StandardXYItemRenderer StatementExpression MethodInvocation p1 Literal 1 ClassCreator ReferenceType NumberAxis Literal Axis 2" assertTrue	0
+"Green Eggs and Ham" assertEquals	0
+"IllegalArgumentException should have been thrown on null value" "Null 'key' argument." assertEquals	0
+"Series 1" "Series 1" "Series 2" "Series 2" "Series 2" "Series 2" "Series 2" "Series 2" "Series 2" "Series 2" "Series 2" "Series 2" "Series 2" "Series 2" "Series 2" "Series 2" assertTrue	1
+"Series 1" "Series 2" "No exception should be thrown." fail	0
+"Series 1" "Series 1" assertEquals	0
+"dataset (type MethodInvocation dataset MethodInvocation getName getClass Literal ") has wrong type:" drawItemLabel	1
+"MeterPlot.setLabelType(int): type." fireChangeEvent	1
+"Expected an IllegalArgumentException for null." assertTrue	0
+"Visual Basic" data	1
+") not recognised." "Column key (" ") not recognised." remove	1
+"Series 1" assertTrue	0
+"Series 1" "Type 1" "Series 1" "Type 2" assertTrue	0
+"The cannot be null." "The 'data' is null." "The 'data' array must have length == IfStatement BinaryOperation != MemberReference ArraySelector Literal 0 MemberReference length data MemberReference ArraySelector Literal 1 MemberReference length data BlockStatement ThrowStatement ClassCreator ReferenceType IllegalArgumentException Literal "The 'data' array must contain two with equal length." notifyListeners	0
+"Task 1" "Task 2" "Task 2" assertTrue	1
+"Series 1" assertEquals	0
+"Section 1" "Section 2" "Section 3" dispose	0
+"Not enough data." "Not enough data." result	1
+"Expected an IllegalArgumentException for null." assertTrue	0
+"New Label" "New Label" assertTrue	1
+"Not yet implemented." "Not yet implemented." "Not yet implemented." "Not yet implemented." "Not yet implemented." "Not yet implemented." "Not yet implemented." calculateTotalHeight	1
+"Series index out of bounds" get	1
+"Series 1" "Series 2" dataset	0
+"Series in dataset 2" assertEquals	0
+"Key 1" "Key 1" "Key 1" "Key 1" "Key 2" "Key 2" assertTrue	1
+"updateValue: can't update null." setValue	1
+"Domain 1" "Domain 2" assertTrue	0
+"Expected an IllegalArgumentException for null." assertTrue	0
+"Title 2" assertTrue	1
+"Task 1" "Task 2" "Task 3" assertEquals	1
+"Series 1" "Series 1" "Series 1" "Series 1" assertTrue	1
+"JFreeSVG is not present on the classpath." ex	1
+"URL A1" "URL A2" "URL A3" assertTrue	0
+"Value = {0}" "Value = {0}" assertTrue	1
+"Should have thrown IllegalArgumentException on negative key" assertEquals	0
+"TimeSeriesDataset.addSeries(): Literal "cannot add null array of values." MethodInvocation	1
+"Series index out of bounds" get	1
+"Write ClassCreator ReferenceType SimpleTimePeriod MethodInvocation Literal 1 MemberReference Calendar APRIL Literal 2001 date MethodInvocation Literal 5 MemberReference Calendar APRIL Literal 2001 date add StatementExpression MethodInvocation s1 ClassCreator ReferenceType Task Literal ClassCreator ReferenceType SimpleTimePeriod MethodInvocation Literal 9 MemberReference Calendar APRIL Literal 2001 date MethodInvocation Literal 9 MemberReference Calendar APRIL Literal 2001 date add StatementExpression MethodInvocation s1 ClassCreator ReferenceType Task Literal ClassCreator ReferenceType SimpleTimePeriod MethodInvocation Literal 10 MemberReference Calendar APRIL Literal 2001 date MethodInvocation Literal 5 MemberReference Calendar Literal 2001 date add StatementExpression MethodInvocation s1 ClassCreator ReferenceType Task Literal ClassCreator ReferenceType SimpleTimePeriod MethodInvocation Literal 6 MemberReference Calendar Literal 2001 date MethodInvocation Literal 30 MemberReference Calendar Literal 2001 date add StatementExpression MethodInvocation s1 ClassCreator ReferenceType Task Literal Signoff" "Write ClassCreator ReferenceType SimpleTimePeriod MethodInvocation Literal 1 MemberReference Calendar APRIL Literal 2001 date MethodInvocation Literal 5 MemberReference Calendar APRIL Literal 2001 date add StatementExpression MethodInvocation s2 ClassCreator ReferenceType Task Literal ClassCreator ReferenceType SimpleTimePeriod MethodInvocation Literal 9 MemberReference Calendar APRIL Literal 2001 date MethodInvocation Literal 9 MemberReference Calendar APRIL Literal 2001 date add StatementExpression MethodInvocation s2 ClassCreator ReferenceType Task Literal ClassCreator ReferenceType SimpleTimePeriod MethodInvocation Literal 10 MemberReference Calendar APRIL Literal 2001 date MethodInvocation Literal 15 MemberReference Calendar Literal 2001 date add StatementExpression MethodInvocation s2 ClassCreator ReferenceType Task Literal ClassCreator ReferenceType SimpleTimePeriod MethodInvocation Literal 15 MemberReference Calendar Literal 2001 date MethodInvocation Literal 17 MemberReference Calendar JUNE Literal 2001 date add StatementExpression MethodInvocation s2 ClassCreator ReferenceType Task Literal Signoff" collection	0
+"Index outside valid range." get	1
+"Series index out of bounds." fireDatasetChanged	1
+"Series 2" dataset	1
+"Domain ClassCreator ReferenceType NumberAxis Literal ClassCreator ReferenceType StandardXYItemRenderer StatementExpression MethodInvocation p1 Literal 1 ClassCreator ReferenceType NumberAxis Literal "Domain Axis 2" assertTrue	0
+"Array lengths must be equal." result	0
+"Test 1" "Test 2" assertFalse	0
+"Series 1" assertTrue	0
+"Category 1" "Category 2" "Category 3" dataset	0
+"Tooltip A1" "Tooltip A2" "Tooltip A3" "Tooltip add StatementExpression MethodInvocation t2 Literal "Tooltip B2" assertEquals	0
+"Should have thrown UnknownKeyException on unknown key" "Key not found: MethodInvocation e getMessage assertEquals TryStatement StatementExpression MethodInvocation c Literal null StatementExpression MethodInvocation Literal "Should have thrown IndexOutOfBoundsException on null key" "Null 'key' argument." assertEquals	0
+"Null argument." drawString	0
+"Null value is accepted" assertEquals	1
+"Series 1" "Series 2" result	0
+"Task 1" "Task 2" "Task 3" assertEquals	1
+"Series index out of bounds" get	1
+"Require '" "' (" be	0
+"baseTimeline.getSegmentSize() Literal "is smaller than segmentSize" "baseTimeline.getStartTime() is after startTime" "baseTimeline.getSegmentSize() is not multiple of Literal IfStatement BinaryOperation != BinaryOperation % BinaryOperation - This MemberReference startTime MethodInvocation baseTimeline getStartTime This MemberReference segmentSize Literal 0 BlockStatement ThrowStatement ClassCreator ReferenceType IllegalArgumentException Literal "baseTimeline is not aligned" =	1
+"Series in dataset 2" assertTrue	0
+"Require weight >= 1." fireChangeEvent	0
+"New ToolTip" "New ToolTip" "New URL" "New URL" assertTrue	1
+"Series 1" "Series 1" assertTrue	0
+"Bar 3D" createBarChart3D	1
+"Series '1'" assertTrue	0
+"Invalid 'percent' (" ") argument." fireChangeEvent	1
+"Expected an IllegalArgumentException for null." assertTrue	0
+"Key 1" "Key 2" "Key 3" assertTrue	0
+"Green Eggs and Ham" assertEquals	0
+"Number format exception" =	1
+"Failed to add cloned item." copy	1
+"Null or zero length 'values' argument." max	1
+"No exception should be thrown." fail	0
+"Not implemented." "Not implemented." "Not implemented." "Not implemented." LengthConstraintType."	1
+"Series 1" "Series 2" "Green Eggs and Ham" assertEquals	0
+"Not enough data." result	1
+"Not enough data." result	1
+"Overlapping bin" sort	1
+"Unknown orientation." setComposite	1
+"Expected IndexOutOfBoundsException." "Expected IndexOutOfBoundsException." "Expected IndexOutOfBoundsException." e	1
+"The number of categories does not match the data." fireDatasetChanged	1
+"Group A" "Group A" "Group A" "Group B" "Group B" assertEquals	1
+"New ToolTip" "New ToolTip" "New URL" "New URL" assertTrue	1
+"No exception should be thrown." fail	1
+"Null argument." notifyListeners	0
+"Should have thrown an IllegalArgumentException on index out of range" "Null argument." "Should have thrown an IllegalArgumentException on index out of range" "The argument is out of range." "Should have thrown an IllegalArgumentException on index out of range" "The argument is out of range." assertEquals	0
+"Series 1" assertEquals	0
+"Series {0}" assertTrue	1
+"Series 1" "Series 2" "Series 3" assertEquals	1
+"Series 2" assertTrue	1
+"Test Literal "Category Literal "Value MemberReference dataset MemberReference PlotOrientation VERTICAL Literal true Literal true Literal false LocalVariableDeclaration ReferenceType JFreeChart VariableDeclarator chart2 Cast ReferenceType JFreeChart MethodInvocation TestUtilities MemberReference serialised TryStatement StatementExpression MethodInvocation chart2 Literal 300 Literal 200 CatchClause CatchClauseParameter Exception e StatementExpression MethodInvocation Literal "No exception should be thrown." fail	0
+"Empty Series" "Empty Series" assertTrue	1
+"Expected IllegalArgumentException." e	1
+"Series 1" createXYLineChart	0
+"Not a key" assertEquals	1
+"Task 1" "Task 2" "Task 3" "Task 1" "Task 2" "Task 3" "Task 2" "Task 2" assertTrue	1
+"Task 1" "Task 2" "Task 3" assertEquals	0
+"Not yet implemented." "Not yet implemented." "Not yet implemented." "Not yet implemented." "Not yet implemented." calculateTotalHeight	1
+"Export to JPEG" ex	1
+"No exception should be triggered." fail	0
+"DialShape not recognised." fill	1
+"The 'series' argument is out of bounds (" get	1
+"Series {0}" assertTrue	1
+"Series index out of bounds" get	1
+"Export to PNG" ex	1
+"There should be no exception." fail	0
+"Key" e	0
+"Series 1" assertTrue	1
+"Bright TernaryExpression MemberReference greenForIncrease Literal Literal Literal "=change >=-" "%, Bright TernaryExpression MemberReference ! greenForIncrease Literal Literal Literal "=change >=+" MemberReference	1
+"Test Series" assertTrue	0
+"Test 2" "Test 2" "Test 2" "Test 2" "Test 2" "Test 2" assertTrue	1
+"Series 1" "Series 2" assertEquals	0
+"There should be no exception." fail	0
+"The key (" ") is not recognised." index	0
+"Cloning failed." assertTrue	1
+"Series 1" "Series 2" "No exception should be thrown." fail	0
+"Key 1" "Key 2" "Key 3" "Key 3" assertTrue	0
+"Item 1" "Item 2" "Item 3" assertEquals	0
+"Series 1" "Series 2" result	0
+"Key 1" "Key 2" "Key 3" "Key 1" "Key 2" "Key 3" assertTrue	0
+"Series 1" "Series 1" "Series 1" assertEquals	0
+"Series index out of bounds" get	1
+"Series 1" MemberReference	1
+"Column key (" ") not recognised." remove	0
+"Empty Series" "Empty Series" assertTrue	1
+"Series 1" "Series 2" "No exception should be triggered." fail	0
+"Test 1" "Test 1" assertTrue	1
+"XYZ: {0}" "XYZ: {0}" assertTrue	1
+"X-value already exists." "X-value already exists." MethodInvocation	1
+"There should be no exception." fail	0
+"Test for jfreechart running with SWT" sleep	1
+"OrsonPDF is not present on the classpath." ex	1
+"The argument is out of range." fireChartChanged	0
+"URL A1" "URL A2" "URL A3" "URL A1" "URL A2" "URL A3" assertTrue	0
+"No exception should be thrown." fail	1
+"The index value (" index	0
+"Series index out of bounds" get	1
+"Null value is accepted" e	1
+"New Label" "New Label" "Hello World!" "Hello World!" assertEquals	0
+"Series in dataset 2" assertEquals	0
+"Series 1" "Multiple Axis Demo 3" "Series 2" "Series 3" MemberReference	0
+"URL A1" "URL A2" "URL A3" "URL A1" "URL A2" "URL A3" assertTrue	0
+"Series 1" "Series 1" assertTrue	0
+"There should be no exception." fail	0
+"Argument 'd' outside valid range." =	1
+"Series 1" assertEquals	0
+"Cloning failed." assertTrue	1
+"Task 1" "Task ClassCreator ReferenceType Date Literal 10 ClassCreator ReferenceType Date Literal 15 addSubtask StatementExpression MethodInvocation t1 ClassCreator ReferenceType Task Literal "Task ClassCreator ReferenceType Date Literal 16 ClassCreator ReferenceType Date Literal 20 addSubtask StatementExpression MethodInvocation t1 Literal 0.10 StatementExpression MethodInvocation s1 MemberReference t1 add LocalVariableDeclaration ReferenceType Task VariableDeclarator t2 ClassCreator ReferenceType Task Literal "Task 2" "Task ClassCreator ReferenceType Date Literal 30 ClassCreator ReferenceType Date Literal 35 addSubtask StatementExpression MethodInvocation t2 ClassCreator ReferenceType Task Literal "Task ClassCreator ReferenceType Date Literal 36 ClassCreator ReferenceType Date Literal 40 addSubtask StatementExpression MethodInvocation t2 Literal 0.20 StatementExpression MethodInvocation s1 MemberReference t2 add StatementExpression MethodInvocation result MemberReference s1 add LocalVariableDeclaration ReferenceType TaskSeries VariableDeclarator s2 ClassCreator ReferenceType TaskSeries Literal LocalVariableDeclaration ReferenceType Task VariableDeclarator ClassCreator ReferenceType Task Literal "Task 3" result	0
+"Series 1" assertEquals	1
+"No exception should be thrown." fail	0
+"Task 1" "Task 2" "Task 2" assertTrue	1
+"The index is out of bounds." result	0
+"No exception should be thrown." fail	1
+"Series 1" "Start Value" "Series 1" "Series 1" "Series 1" "Series 1" "Series 1" "Series 1" "Series 1" "Series 1" "Series 1" assertEquals	0
+"Series 1" "Series 2" "Category 1" "Category 2" "Category 3" "Series 1" "Category 1" "Series 1" "Category 2" "Series 1" "Category 3" "Series 2" "Category 1" "Series 2" "Category 2" "Series 2" "Category 3" "Series 1" "Category 1" "Series 1" "Category 2" "Series 1" "Category 3" "Series 2" "Category 1" "Series 2" "Category 2" "Series 2" "Category 3" "Category 1" "Series 1" assertTrue	1
+"JDBCCategoryDataset.executeQuery() : columns Literal "returned from the database." e	1
+"DefaultIntervalCategoryDataset.getValue(): Literal "series index out of range." "DefaultIntervalCategoryDataset.getValue(): Literal "category index out of range." category	1
+"Series index out of bounds" get	1
+"DefaultIntervalCategoryDataset.setValue: Literal "series outside valid range." "DefaultIntervalCategoryDataset.setValue: Literal "unrecognised category." fireDatasetChanged	1
+"Series 1" assertEquals	0
+"Column 1" assertEquals	0
+"No value" drawAlignedString	0
+"Category 1" "Category 2" "Category 3" "Category LocalVariableDeclaration ReferenceType String VariableDeclarator category5 Literal "Category LocalVariableDeclaration ReferenceType String VariableDeclarator category6 Literal "Category 6" "Category 7" "Category 8" assertEquals	0
+"Series 1" assertEquals	0
+"The index value (" fireChangeEvent	0
+"Empty Series" "Empty Series" assertTrue	1
+"Rotation type not recognised." angle2	1
+"Save As SVG" "<!DOCTYPE svg PUBLIC \"-//W3C//DTD 1.1//EN\" ex	1
+"Series 1" assertEquals	1
+"than the outlier which is set at: (" ")"	0
+"Rotation type not recognised." angle2	1
+"Invalid sql generated. PieDataSet requires 2 columns LocalVariableDeclaration BasicType int VariableDeclarator columnType MethodInvocation metaData Literal 2 getColumnType LocalVariableDeclaration BasicType double VariableDeclarator value WhileStatement MethodInvocation resultSet next BlockStatement LocalVariableDeclaration ReferenceType Comparable VariableDeclarator key MethodInvocation resultSet Literal 1 getString SwitchStatement MemberReference columnType SwitchStatementCase MemberReference Types NUMERIC MemberReference Types REAL MemberReference Types INTEGER MemberReference Types DOUBLE MemberReference Types FLOAT MemberReference Types DECIMAL MemberReference Types BIGINT StatementExpression Assignment MemberReference value MethodInvocation resultSet Literal 2 getDouble = StatementExpression MethodInvocation MemberReference key MemberReference value setValue BreakStatement SwitchStatementCase MemberReference Types DATE MemberReference Types TIME MemberReference Types TIMESTAMP LocalVariableDeclaration ReferenceType Timestamp VariableDeclarator date MethodInvocation resultSet Literal 2 StatementExpression Assignment MemberReference value MethodInvocation date getTime = StatementExpression MethodInvocation MemberReference key MemberReference value setValue BreakStatement SwitchStatementCase StatementExpression MethodInvocation System.err Literal "JDBCPieDataset - unknown data type" "JDBCPieDataset: swallowing exception." "JDBCPieDataset: swallowing exception." println	1
+"Type 1" "Type 2" "Type 3" assertEquals	0
+"Can't evaluate the month." "Can't evaluate the year." result	1
+"Not enough data." result	1
+"{3} - {4}" "{3} - {4}" "{3} - {4}" "{3} - {4}" assertTrue	0
+"A test" assertTrue	1
+"Series X" "Series X" assertTrue	1
+"URL A1" "URL A2" "URL A3" "URL add StatementExpression MethodInvocation u2 Literal "URL B2" assertEquals	0
+"Series 1" assertTrue	0
+"Series A" "Series B" "Series C" add	1
+"Zero length 'data' array." sqrt	1
+"Test for jfreechart running with SWT" sleep	1
+"No exception should be triggered." fail	0
+"MM/dd/yyyy hh:mm:ss" data"	1
+"Should have thrown an IllegalArgumentException on negative number" "Index out of range." "Should have thrown an IllegalArgumentException on number" "Index out of range." "Should have thrown an IllegalArgumentException on number being out of range" "Index out of range." assertEquals	0
+"Category 2" "Category 2" assertTrue	1
+"Series {0}" assertTrue	1
+"Series 1" assertEquals	0
+"Null or zero length 'values' argument." min	1
+"Left most point on the axis should be beginning of Literal MethodInvocation plotArea getX This MemberReference axis MethodInvocation This MemberReference axis MethodInvocation getLowerBound MemberReference plotArea MemberReference edge valueToJava2D MemberReference EPSILON assertEquals StatementExpression MethodInvocation Literal most point on the axis should be end of range." assertEquals	0
+"Series index out of bounds" seriesArray	1
+"JFreeSVG library is not present." svg	1
+"Series 1" "Series 2" =	0
+"Type 1" "Type 2" "Type 3" "Type LocalVariableDeclaration ReferenceType String VariableDeclarator type5 Literal "Type LocalVariableDeclaration ReferenceType String VariableDeclarator type6 Literal "Type 6" "Type 7" "Type 8" result	0
+"Aggregated Items" "Aggregated Items" assertTrue	1
+"Series in dataset 2" assertEquals	0
+"Courier New" "Courier New" MemberReference	0
+"{3} - {4}" assertEquals	0
+"Series {0}" "Series {0}" assertTrue	0
+"No exception should be thrown." fail	0
+"No exception should be thrown." fail	0
+"Category 1" "Category 2" assertEquals	0
+"Series 1" "Series 2" "Hello World!" "There should be no exception." fail	0
+"Series 1" assertEquals	0
+"Series 1" assertEquals	0
+"Unknown layer." draw	1
+"New ToolTip" "New ToolTip" "New URL" "New URL" assertTrue	1
+"DefaultIntervalCategoryDataset.getValue(): Literal "series index out of range." "DefaultIntervalCategoryDataset.getValue(): Literal "category index out of range." category	1
+"Can't evaluate the week." "Can't evaluate the week." "Can't evaluate the year." "Could not find separator." result	1
+"Null '" argument."	0
+"The cannot be null." "The 'data' is null." "The 'data' array must have length == LocalVariableDeclaration BasicType int VariableDeclarator length MemberReference ArraySelector Literal 0 MemberReference length data IfStatement BinaryOperation || BinaryOperation || BinaryOperation || BinaryOperation || BinaryOperation != MemberReference length MemberReference ArraySelector Literal 1 MemberReference length data BinaryOperation != MemberReference length MemberReference ArraySelector Literal 2 MemberReference length data BinaryOperation != MemberReference length MemberReference ArraySelector Literal 3 MemberReference length data BinaryOperation != MemberReference length MemberReference ArraySelector Literal 4 MemberReference length data BinaryOperation != MemberReference length MemberReference ArraySelector Literal 5 MemberReference length data BlockStatement ThrowStatement ClassCreator ReferenceType IllegalArgumentException Literal "The 'data' array must contain six with equal length." notifyListeners	0
+"No bin." notifyListeners	1
+"{3} - {4}" "{3} - {4}" "{3} - {4}" "{3} - {4}" assertTrue	0
+"Require weight >= 1." fireChangeEvent	0
+"Series 1" true	0
+"Series 1" "Series 1" "Series 1" assertEquals	1
+"Test Series" "Clone Series" "Test Series" "Clone Series" assertEquals	1
+"New ToolTip" "New ToolTip" "New URL" "New URL" assertTrue	1
+"No data available" MemberReference	0
+"Test 1" "Test 2" assertFalse	1
+"Label 1" "Label 1" "Label 2" "Label 2" assertTrue	1
+"Not a number" assertTrue	0
+"No exception should be thrown." fail	1
+"New ToolTip" "New ToolTip" "New URL" "New URL" assertTrue	1
+"Test Literal "Category Literal "Value MemberReference dataset MemberReference PlotOrientation VERTICAL Literal true Literal true Literal false LocalVariableDeclaration ReferenceType CategoryPlot VariableDeclarator plot Cast ReferenceType CategoryPlot MethodInvocation StatementExpression MethodInvocation plot ClassCreator ReferenceType ValueMarker Literal 1.1 MemberReference Layer FOREGROUND addRangeMarker StatementExpression MethodInvocation plot ClassCreator ReferenceType IntervalMarker Literal 2.2 Literal 3.3 MemberReference Layer BACKGROUND addRangeMarker LocalVariableDeclaration ReferenceType JFreeChart VariableDeclarator chart2 Cast ReferenceType JFreeChart MethodInvocation TestUtilities MemberReference serialised StatementExpression MethodInvocation MemberReference MemberReference chart2 assertEquals TryStatement StatementExpression MethodInvocation chart2 Literal 300 Literal 200 CatchClause CatchClauseParameter Exception e StatementExpression MethodInvocation Literal "No exception should be thrown." fail	0
+"Series {0}" assertTrue	1
+"Empty Series" "Empty Series" assertTrue	1
+"Task 1" "Task 2" "Task 3" assertEquals	0
+"Series 1" series	0
+"Series 1" "Series 2" collection	0
+"There should be no exception." fail	0
+"Category 1" "Category 2" assertTrue	0
+"L&G Index Trust" "L&G UK Index Trust" dataset	0
+"Should have thrown IllegalArgumentException on duplicate key" assertEquals	0
+"Null argument." =	0
+"Invalid (" fireChangeEvent	0
+"Null argument." present."	0
+"No data XYZ" "No data XYZ" assertTrue	1
+"Series 1" assertEquals	0
+"Null argument." setNotify	0
+"Series 1" "Series 2" "Series 3" assertEquals	0
+"No exception should be thrown." fail	0
+"Series 1" assertTrue	0
+"Test String" assertEquals	0
+"Series 1" "Task with null duration" "Series 1" "Task with null duration" assertTrue	0
+"Should have thrown IndexOutOfBoundsException on negative key" "Series index out of bounds" "Should have thrown IndexOutOfBoundsException on key out of range" "Series index out of bounds" assertEquals	0
+"No exception should be thrown." fail	0
+"Series 1" "Series 2" assertTrue	0
+"Item 1" assertFalse	1
+"Series 1" assertEquals	1
+"Series 1" assertEquals	0
+"Series 1" assertTrue	0
+"Series 1" assertFalse	1
+"Expected an IllegalArgumentException for null." assertTrue	0
+"Courier New" "Courier New" MemberReference	0
+"Series 1" MemberReference	0
+"Series 1" "Series 2" "No exception should be thrown." fail	0
+"JdbcXYDataset: swallowing exception." println	1
+"Series 1" assertEquals	0
+"Series 1" "Series 2" collection	0
+"Percentage outside valid range." fireChangeEvent	1
+"Sub 1" "Sub 1" assertTrue	1
+"There is no database to execute the query." "Unable to load column MemberReference column Literal (" "Not enough valid columns where generated by query." "Unknown data" e	1
+"Expected an IllegalArgumentException." assertEquals	1
+"Series 1" "Series 2" "Series 2" assertTrue	1
+"Test 1" "Test 2" assertFalse	1
+"The argument must be > 0.0" fireChangeEvent	0
+"Series 1" "Series 1" assertEquals	0
+"Visual Basic" =	1
+"Series A" "Series B" "Series C" add	1
+"Label 1" assertEquals	0
+"Column 1" "Column 2" "Column 1" "Column 2" assertEquals	0
+"Empty Series" "Empty Series" assertEquals	1
+"Series 1" assertEquals	1
+"Null value is accepted" e	1
+"Series {0}" assertTrue	1
+"Should have thrown IndexOutOfBoundsException on negative key" "Series index out of bounds." "Should have thrown IndexOutOfBoundsException on key out of range" "Series index out of bounds." assertEquals	0
+"No exception should be thrown." fail	0
+"Array lengths must be equal." counter	1
+"Series 3" series2	0
+"Test 1" "Test 1" assertTrue	0
+"Unable to add cloned data item." copy	1
+"Series 1" assertEquals	0
+"Series 1" "Series 2" "Series 3" assertTrue	0
+"Cloning failed." assertTrue	1
+"Column 1" "Column 2" assertEquals	0
+") not recognised." "Column key (" ") not recognised." null	1
+"Task 1" "Task 1" "Task 2" "Task 2" "Task 3" "Task 3" assertEquals	1
+"There should be an exception." e	1

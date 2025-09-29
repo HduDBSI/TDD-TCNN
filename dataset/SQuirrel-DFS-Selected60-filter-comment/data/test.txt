@@ -1,0 +1,159 @@
+"ALTER TABLE append StatementExpression MethodInvocation result MethodInvocation MethodInvocation info getTableName MemberReference qualifier MemberReference prefs MemberReference dialect append StatementExpression MethodInvocation result Literal append StatementExpression MethodInvocation result MemberReference alterClause append StatementExpression MethodInvocation result Literal append IfStatement MethodInvocation prefs BlockStatement StatementExpression MethodInvocation result MethodInvocation MethodInvocation info getColumnName MemberReference prefs MemberReference dialect append BlockStatement StatementExpression MethodInvocation result MethodInvocation info getColumnName append IfStatement MemberReference specifyType BlockStatement StatementExpression MethodInvocation result Literal append StatementExpression MethodInvocation result MethodInvocation MemberReference info MemberReference dialect getTypeName append StatementExpression MethodInvocation result Literal append IfStatement MemberReference nullable BlockStatement StatementExpression MethodInvocation result Literal NULL" toString	0
+"listener cannot be null" addActionListener	1
+"Binding schema name MethodInvocation dbo getCatalogName Literal as first value" "Binding table name MethodInvocation dbo getSimpleName Literal as second value" "Binding table name MethodInvocation dbo getSimpleName Literal as value" setString	0
+"SELECT \"" toString	0
+"Adding execution listener." put	0
+"Error occured seting current results tab" error	1
+"Exists returned true for non-existent file" "Exists returned false file" delete	1
+"Binding catalog name MethodInvocation dbo getCatalogName Literal as first value" "Binding table name MethodInvocation dbo getSimpleName Literal as second value" setString	0
+"Null sqlFilterClauses passed" loadData	1
+"A session with ID MemberReference sessionId Literal has not been created" MethodInvocation	0
+"Running test before issuing DATABASE command:" "Issuing DATABASE dbcopydest command:" "Running test after issuing DATABASE command:" test	1
+"for a sequence" println	0
+"Not yet implemented" fail	0
+"Running View Source SQL: MemberReference debug StatementExpression MethodInvocation s_log BinaryOperation + Literal "View Name=" "Schema Name=" pstmt	0
+"Null ISession passed" 0	1
+"Setup for FileTest failed." close	1
+"Not yet implemented" fail	0
+"Problem loading replacementManager" error	1
+"Null ResultTab passed" requestFocus	1
+"Could read only MemberReference count Literal chars from a total file size of MemberReference fileSize Literal ". Import failed." "Text does not represent data of type MethodInvocation getClassName Literal ". Text was:\n" fileText	1
+"Null DatabaseObjectType passed" dboType	0
+"Null ResultTab passed" tab	1
+"Null ISession passed" loadData	1
+"Not yet implemented" fail	0
+", append StatementExpression MethodInvocation localColumns MemberReference ArraySelector Literal 0 columns add IfStatement MethodInvocation prefs BlockStatement StatementExpression MethodInvocation refColumns MethodInvocation MemberReference ArraySelector Literal 1 columns MemberReference prefs MemberReference dialect append BlockStatement StatementExpression MethodInvocation refColumns MemberReference ArraySelector Literal 1 columns append StatementExpression MethodInvocation refColumns Literal ", append StatementExpression MethodInvocation sql BinaryOperation - MethodInvocation sql length Literal 2 setLength StatementExpression MethodInvocation refColumns BinaryOperation - MethodInvocation refColumns length Literal 2 setLength StatementExpression MethodInvocation sql Literal REFERENCES append StatementExpression MethodInvocation sql MethodInvocation MemberReference refTableName MemberReference qualifier MemberReference prefs MemberReference dialect append StatementExpression MethodInvocation sql Literal (" toArray	1
+"ALTER TABLE append StatementExpression MethodInvocation result MethodInvocation info getTableName append StatementExpression MethodInvocation result Literal append StatementExpression MethodInvocation result MethodInvocation info getColumnName append IfStatement MemberReference nullable BlockStatement StatementExpression MethodInvocation result Literal DEFAULT NULL" toString	0
+"<table border=1><tr BGCOLOR=\"#CCCCFF\">" null	1
+"getDefaultValue: not yet implemented" null	0
+"Unbekannter Parametertyp:>" "<"	1
+"CREATE DATABASE [" "]\nON append LocalVariableDeclaration ReferenceType String VariableDeclarator lastFilegroup Literal ForStatement ForControl VariableDeclaration BasicType int VariableDeclarator i Literal 0 BinaryOperation < MemberReference i MemberReference dataFiles length MemberReference ++ i BlockStatement LocalVariableDeclaration ReferenceType DatabaseFile VariableDeclarator file Cast ReferenceType DatabaseFile MemberReference ArraySelector MemberReference i dataFiles LocalVariableDeclaration ReferenceType String VariableDeclarator thisFilegroup MethodInvocation file IfStatement MethodInvocation ! thisFilegroup MemberReference lastFilegroup equals BlockStatement IfStatement MethodInvocation thisFilegroup Literal equals StatementExpression MethodInvocation buf Literal append BlockStatement StatementExpression MethodInvocation buf Literal "FILEGROUP append StatementExpression MethodInvocation buf MemberReference thisFilegroup append StatementExpression MethodInvocation buf Literal append StatementExpression Assignment MemberReference lastFilegroup MemberReference thisFilegroup = StatementExpression MethodInvocation buf Literal "( NAME = append StatementExpression MethodInvocation buf MethodInvocation file getName append StatementExpression MethodInvocation buf Literal ",\n\tFILENAME = '" "',\n\tSIZE = append StatementExpression MethodInvocation buf MethodInvocation file getSize append IfStatement MethodInvocation ! file MethodInvocation Literal equals getMaxSize BlockStatement StatementExpression MethodInvocation buf Literal ",\n\tMAXSIZE = append StatementExpression MethodInvocation buf MethodInvocation file getMaxSize append StatementExpression MethodInvocation buf Literal ",\n\tFILEGROWTH = append StatementExpression MethodInvocation buf MethodInvocation file getGrowth append StatementExpression MethodInvocation buf Literal )" "LOG ON\n" "( NAME = append StatementExpression MethodInvocation buf MethodInvocation file getName append StatementExpression MethodInvocation buf Literal ",\n\tFILENAME = '" "',\n\tSIZE = append StatementExpression MethodInvocation buf MethodInvocation file getSize append IfStatement MethodInvocation ! file MethodInvocation Literal equals getMaxSize BlockStatement StatementExpression MethodInvocation buf Literal ",\n\tMAXSIZE = append StatementExpression MethodInvocation buf MethodInvocation file getMaxSize append StatementExpression MethodInvocation buf Literal ",\n\tFILEGROWTH = append StatementExpression MethodInvocation buf MethodInvocation file getGrowth append StatementExpression MethodInvocation buf Literal )" toString	1
+"SELECT TEXT Literal SYSIBM.SYSVIEWS Literal NAME = '" e	1
+"drop table if exists test" "insert into test values (?)" close	1
+"Missing icon for mainframe" dispose	1
+"2 Type" "2 Length" "2 Null" "2 Remarks" add	1
+"Binding schema name MethodInvocation dbo getSchemaName Literal as first value" "Binding table name MethodInvocation dbo getSimpleName Literal as second value" setString	0
+"Null ISession" _app	1
+"Exception while attempting to shrink database file" mssqlMenu	1
+"Remove complete" sendEvent	0
+"Usage: [" exit	0
+"null ISQLExecutionListener passed" addSQLExecutionListener	0
+"ALTER TABLE append StatementExpression MethodInvocation notNullSQL MethodInvocation MethodInvocation colInfo getTableName MemberReference qualifier MemberReference prefs MemberReference dialect append StatementExpression MethodInvocation notNullSQL Literal append StatementExpression MethodInvocation notNullSQL MemberReference alterClause append StatementExpression MethodInvocation notNullSQL Literal append StatementExpression MethodInvocation notNullSQL MethodInvocation MethodInvocation colInfo getColumnName MemberReference prefs MemberReference dialect append IfStatement MemberReference specifyType BlockStatement StatementExpression MethodInvocation notNullSQL Literal append StatementExpression MethodInvocation notNullSQL MethodInvocation DialectUtils MemberReference colInfo MemberReference dialect getTypeName append StatementExpression MethodInvocation notNullSQL Literal NOT NULL" add	1
+"Unexpected exception while attempting to order tables" "Unexpected exception while attempting to get cascade clause" processOnSwingEventThread	1
+"listener cannot be null" addActionListener	1
+"MockSQLDriver.getJarFileNames: stub not yet implemented" null	1
+"Connection failed" "Connection succeeded" println	1
+"NO Literal Literal "SET Literal "SET NULL" add	0
+"ColTypeMapper.mapColType: using dialect type: MethodInvocation destDialect MethodInvocation getName getClass Literal to find name for column MethodInvocation colInfo getColumnName Literal in table MemberReference destTableName Literal with type id=" "Precision == scale (" result	1
+"DATABASE dbcopydest" execute	1
+"Error transaction isolation" "Error current MemberReference ex error IfStatement BinaryOperation == MemberReference msgHandler Literal null BlockStatement ThrowStatement MemberReference ex StatementExpression MethodInvocation msgHandler MemberReference ex Literal null showErrorMessage TryStatement StatementExpression MethodInvocation conn MemberReference _autoCommit setAutoCommit CatchClause CatchClauseParameter SQLException ex StatementExpression MethodInvocation s_log Literal "Error autocommit" showErrorMessage	0
+"null ISQLPanelListener passed" add	0
+"ISession == null" sif	1
+"Analyzing column names in tables to be copied" =	1
+"keyName == null" "propName == null" icon	1
+"test query" classUnderTest	0
+"Select RDB$RELATION_NAME, RDB$OWNER_NAME, RDB$DESCRIPTION Literal From RDB$RELATIONS" listTable	1
+"Not yet implemented" fail	0
+"Unexpected SQLException" fireReconnectFailed	1
+"Couldn't find an exact match for destination table MemberReference destTableName Literal in schema MemberReference destSchema Literal and catalog MemberReference destCatalog Literal ". Skipping FK constraint" "Unexpected exception while attempting to determine if Literal "a table (" result	1
+"determineType: filename (" ") ends with 'xls'. Assuming it is an Literal "Excel spreadsheet" "determineType: filename (" ") doesn't end with 'xls'. Assuming it is a Literal "CSV file" CSV	1
+"Running for procedure MemberReference sql debug StatementExpression MethodInvocation s_log BinaryOperation + Literal MethodInvocation doi getSchemaName debug StatementExpression MethodInvocation s_log BinaryOperation + Literal name=" pstmt	0
+"missing primary key" "missing primary key" "missing index" "missing index" panelDisplayType	0
+"Source object in TabbedPaneListener was not a JTabbedpane" prop	1
+"select `id`,`data` from `testing`" testGetTableNameFromSQL	1
+"filePattern arg cannot be empty or null" copyFiles	1
+"Hiding dialog" processOnSwingEventThread	1
+"Not yet implemented" fail	0
+"ISession == null" remove	1
+"Unexpected exception while attempting to read Literal column" result	0
+"Tree Table test" "JMH Root" "Child 0" "child 2" "Child 1" "child 3" "Child 2" setVisible	1
+"The selected source column was not found." "NO Literal "NO MemberReference _qualifier MemberReference _sqlPrefs StatementExpression MethodInvocation results MethodInvocation Arrays MemberReference fkSQLs asList addAll IfStatement BinaryOperation == MethodInvocation _customDialog getMode MemberReference AddLookupTableDialog BlockStatement LocalVariableDeclaration ReferenceType String VariableDeclarator dataQuery MethodInvocation MemberReference schema MemberReference sourceTableName MemberReference sourceColumnName getDataQuery LocalVariableDeclaration ReferenceType List TypeArgument ReferenceType String VariableDeclarator data MethodInvocation MemberReference dataQuery executeStringQuery LocalVariableDeclaration ReferenceType ArrayList TypeArgument ReferenceType String VariableDeclarator insertColumns ClassCreator ReferenceType ArrayList TypeArgument ReferenceType String StatementExpression MethodInvocation insertColumns MemberReference lookupPrimaryKey add StatementExpression MethodInvocation insertColumns MethodInvocation _customDialog getLookupSecondColumn add ForStatement ForControl VariableDeclaration BasicType int VariableDeclarator i Literal 0 BinaryOperation < MemberReference i MethodInvocation data size MemberReference ++ i BlockStatement LocalVariableDeclaration ReferenceType String VariableDeclarator valuesPart BinaryOperation + BinaryOperation + BinaryOperation + BinaryOperation + Literal VALUES ( MemberReference i Literal ", '" "' )" toArray	1
+"Null File passed" =	0
+"Binding schema name MethodInvocation dbo getSchemaName Literal as first value" "Binding table name MethodInvocation dbo getSimpleName Literal as second value" setString	0
+"File not created in the default temporary-file location." "File created with incorrect suffix." "File created with incorrect prefix." "IOException not thrown" "IllegalArgumentException not thrown." "IllegalArgumentException not thrown." "IllegalArgumentException not thrown." delete	1
+"Null IPlugin passed" "Null key passed" remove	0
+"reading bytes from BLOB" false	1
+"TABLE" =	0
+"Executing sql: MemberReference OFFSET_FUNCTION println LocalVariableDeclaration BasicType int VariableDeclarator offsetResult MethodInvocation stmt MemberReference OFFSET_FUNCTION executeUpdate StatementExpression MethodInvocation System.out BinaryOperation + Literal "Result: MemberReference offsetResult println LocalVariableDeclaration ReferenceType String VariableDeclarator sql Literal "{?=call get_error_offset(?)}" closeStatement	1
+"IOException not thrown." "chmod +w MethodInvocation f1 getAbsolutePath exec = BlockStatement StatementExpression Assignment MemberReference p MethodInvocation r BinaryOperation + BinaryOperation + Literal "attrib -r \"" "File Was Not Able To Be Written To." "File f1 Did Not Delete" "IOException not thrown." "chmod +w MethodInvocation f2 getAbsolutePath exec = BlockStatement StatementExpression Assignment MemberReference p MethodInvocation r BinaryOperation + BinaryOperation + Literal "attrib -r \"" "File f2 Is Set To ReadOnly." "FileWrapper f2 Did Not Delete" "Directory f2 Did Not Delete" "Directory f2 Did Not Delete" delete	1
+"null ISQLExecutionListener passed" addSQLExecutionListener	0
+"insert into append StatementExpression MethodInvocation insertSQL MethodInvocation MemberReference columnList append MethodInvocation Literal ") append Literal (" "VALUES append StatementExpression MethodInvocation insertSQL MethodInvocation MethodInvocation MethodInvocation getColumnCount append MethodInvocation Literal append Literal (" "DELETE FROM MethodInvocation table getQualifiedName StatementExpression Assignment MemberReference stmt MethodInvocation conn MemberReference sql prepareStatement = StatementExpression MethodInvocation stmt execute StatementExpression MethodInvocation stmt close StatementExpression Assignment MemberReference stmt MethodInvocation conn MethodInvocation insertSQL toString prepareStatement = StatementExpression MethodInvocation ProgressBarDialog MethodInvocation session MethodInvocation getMainFrame getApplication MethodInvocation stringMgr Literal MethodInvocation table getSimpleName getString Literal false Literal null LocalVariableDeclaration BasicType int VariableDeclarator inputLines MethodInvocation importer getRows IfStatement BinaryOperation > MemberReference inputLines Literal 0 BlockStatement StatementExpression MethodInvocation ProgressBarDialog Literal 0 TernaryExpression BinaryOperation == MemberReference inputLines Literal - 1 Literal 5000 MemberReference inputLines BlockStatement StatementExpression MethodInvocation ProgressBarDialog setIndeterminate WhileStatement MethodInvocation importer next BlockStatement StatementExpression MemberReference ++ rows IfStatement BinaryOperation > MemberReference inputLines Literal 0 BlockStatement StatementExpression MethodInvocation ProgressBarDialog Literal 1 StatementExpression MethodInvocation stmt clearParameters LocalVariableDeclaration BasicType int VariableDeclarator i Literal 1 ForStatement EnhancedForControl VariableDeclaration ReferenceType TableColumnInfo VariableDeclarator column MemberReference columns BlockStatement LocalVariableDeclaration ReferenceType String VariableDeclarator mapping MethodInvocation MemberReference column TryStatement IfStatement MethodInvocation SpecialColumnMapping.SKIP MethodInvocation MemberReference mapping equals getVisibleString BlockStatement ContinueStatement IfStatement MethodInvocation SpecialColumnMapping.FIXED_VALUE MethodInvocation MemberReference mapping equals getVisibleString BlockStatement StatementExpression MethodInvocation MemberReference stmt MemberReference ++ i MemberReference column bindFixedColumn IfStatement MethodInvocation SpecialColumnMapping.AUTO_INCREMENT MethodInvocation MemberReference mapping equals getVisibleString BlockStatement StatementExpression MethodInvocation MemberReference stmt MemberReference ++ i MemberReference column MemberReference rows bindAutoincrementColumn IfStatement MethodInvocation SpecialColumnMapping.NULL MethodInvocation MemberReference mapping equals getVisibleString BlockStatement StatementExpression MethodInvocation stmt MemberReference ++ i MethodInvocation column getDataType setNull BlockStatement StatementExpression MethodInvocation MemberReference stmt MemberReference ++ i MemberReference column bindColumn CatchClause CatchClauseParameter UnsupportedFormatException ufe StatementExpression MethodInvocation JOptionPane MethodInvocation session MethodInvocation getMainFrame getApplication MethodInvocation stringMgr Literal ArrayCreator ReferenceType Object ArrayInitializer MemberReference rows BinaryOperation - MemberReference i Literal 1 getString showMessageDialog ThrowStatement MemberReference ufe StatementExpression MethodInvocation stmt execute StatementExpression MethodInvocation conn commit StatementExpression MethodInvocation conn MemberReference autoCommit setAutoCommit StatementExpression MethodInvocation importer close StatementExpression Assignment MemberReference success Literal true = CatchClause CatchClauseParameter SQLException sqle StatementExpression MethodInvocation JOptionPane MethodInvocation session MethodInvocation getMainFrame getApplication MethodInvocation stringMgr Literal getString MethodInvocation stringMgr Literal getString MemberReference JOptionPane ERROR_MESSAGE showMessageDialog StatementExpression MethodInvocation log Literal error" "Unexpected exception while attempting to rollback: MethodInvocation e getMessage MemberReference e error StatementExpression MethodInvocation log Literal "Unsupported format." "Error while reading file" showMessageDialog	1
+"null JInternalFrame[] passed" toArray	1
+"Null IPlugin passed" getClass	0
+"ISession == null" source	0
+"null passed" "null ISQLDriver passed" "null ISQLAlias passed" "null SQLConnection passed" sess	0
+"NullPointerException Not Thrown." "Expected IllegalArgumentException for new FileWrapperImpl(" assertTrue	1
+"CREATE OR \n" "BEFORE INSERT ON \n" "FOR EACH ROW \n" "DECLARE \n" "BEGIN \n" toString	0
+"Select text Literal "from sysobjects inner join on = Literal "where name = '" e	1
+"Null ISession passed" =	0
+"Using tab MethodInvocation tab MethodInvocation toString getIdentifier Literal for results." "Created new tab MethodInvocation tab MethodInvocation toString getIdentifier Literal for results." showErrorMessage	1
+"Could read only MemberReference count Literal chars from a total file size of MemberReference fileSize Literal ". Import failed." "Text does not represent data of type MethodInvocation getClassName Literal ". Text was:\n" fileText	1
+"Generic Database Product Name" MethodInvocation	1
+"getPath returned incorrect path(f1)" "getPath returned incorrect path(f2)" "getPath returned incorrect path(f3)" "getPath returned incorrect path(f4)" assertEquals	1
+"CREATE append StatementExpression MethodInvocation triggerSql MemberReference columnName append StatementExpression MethodInvocation triggerSql Literal "_trigger \n" "NO BEFORE INSERT ON append StatementExpression MethodInvocation triggerSql MemberReference tableName append StatementExpression MethodInvocation triggerSql Literal REFERENCING NEW AS n \n" "FOR EACH ROW \n" "SET n." toArray	1
+"Error closing file writer" _outFileWtr	0
+"Returning thread. MemberReference _iFree Literal threads available" debug	1
+"ISQLALias == null" sheet	1
+"Mac OS" showMessageDialog	1
+"Error occured copying object names" error	1
+"DBMS doesn't support 'supportsCatalogs()" "DBMS doesn't support 'supportsSchemas()" childNodes	1
+"Unexpected exception while attempting to read XML column" result	0
+"Inserted MemberReference rowCount Literal rows successfully" close	1
+"Closing connection" "Connection close failed" "Connection closed successfully" debug	0
+"ISQLAlias == null" moveToFront	0
+"onExecute: _info[0] isn't an instance of ITableInfo: class=" "Table has exactly one column, so presenting the modify column dialog" "Table has exactly MemberReference columns length Literal columns, so presenting the column list selection dialog" setVisible	1
+"The selected namespace already has one or more aliases.\n" "Do you want to create another alias for the selected namespace?." "Duplicate alias" getSelectionModel	1
+"showing progress dialog" processOnSwingEventThread	1
+"SELECT MemberReference sequenceName Literal Literal Literal Literal 0 then 0 Literal "else 1 Literal "end as Literal Literal "where = '" "	0
+"listener cannot be null" addActionListener	1
+"Changelist complete" sendEvent	0
+"listener cannot be null" addActionListener	0
+"Error loading an Oyoaha theme" error	1
+"initFromDB: _catalog=" "YES" "Unable to get Key info" "Unable to get Foriegn Key info" true	1
+"File == null" SQL_ALIAS_IMPL	0
+"null Component passed" windowForComponent	0
+"Could read only MemberReference count Literal chars from a total file size of MemberReference fileSize Literal ". Import failed." "File contains MethodInvocation fileText length Literal characters which exceeds this column's limit of MemberReference _columnSize Literal ".\nImport Aborted." fileText	1
+"null JButton[] passed" setPreferredSize	1
+"Running for View source tab: MemberReference sql debug StatementExpression MethodInvocation s_log BinaryOperation + Literal MethodInvocation doi getSchemaName debug StatementExpression MethodInvocation s_log BinaryOperation + Literal name=" pstmt	0
+"Not yet implemented" fail	0
+"WITH CHECK OPTION" bindTemplateAttributes	0
+"CREATE METHOD CM.M2(IN sql %String)" "Failed to retrieve execution plan from Cache:\n" e	1
+"null passed" +=	1
+"File returned hidden on MethodInvocation ! f isHidden assertTrue StatementExpression MethodInvocation Literal "File returned on MethodInvocation f2 isHidden assertTrue StatementExpression MethodInvocation Literal "File did not delete." "File returned hidden" "attrib +h \"" "File returned visible" "attrib -h \"" "File returned hidden" delete	1
+"backup file" "backup metadata setActionCommand StatementExpression MethodInvocation jcheckboxBckMetadataOnly Literal setName StatementExpression MethodInvocation jcheckboxBckMetadataOnly Literal "backup metadata setText StatementExpression MethodInvocation jpanelBackup MemberReference jcheckboxBckMetadataOnly MethodInvocation cc Literal 2 Literal 10 Literal 3 Literal 1 xywh add StatementExpression MethodInvocation Literal garbage collection" "backup external files as tables" "backup external files as tables" jpanelBackup	0
+"for adding a constraint" println	0
+"Expected two calls to getPropertyDescriptors() to produce two distinct objects, but Literal "both references point to the same object." assertFalse	1
+"ISQLALias == null" sheet	0
+"Error formatting Key is '" toString	0
+"Invalid of :" getPropertyChangeReporter	0
+"Null DatabaseObjectType passed" pop	1
+"Transferable.getTransferData returned a null/empty list" "drop: path=" result	1
+"format: th cannot be null" toString	1
+"downloadHttpFile: downloading file (" ") from url: MemberReference url debug LocalVariableDeclaration ReferenceType HttpClient VariableDeclarator client ClassCreator ReferenceType HttpClient StatementExpression MethodInvocation MemberReference MemberReference client MemberReference url setupProxy StatementExpression Assignment MemberReference method ClassCreator ReferenceType GetMethod MethodInvocation url toString = StatementExpression MethodInvocation method Literal true setFollowRedirects StatementExpression Assignment MemberReference resultCode MethodInvocation client MemberReference method executeMethod = IfStatement MethodInvocation s_log isDebugEnabled BlockStatement StatementExpression MethodInvocation s_log BinaryOperation + Literal "downloadHttpFile: response code was: MemberReference resultCode debug IfStatement BinaryOperation != MemberReference resultCode Literal 200 BlockStatement ThrowStatement ClassCreator ReferenceType FileNotFoundException BinaryOperation + BinaryOperation + BinaryOperation + Literal "Failed to download file from url (" "): HTTP Response Code=" "downloadHttpFile: writing http response body to file: MethodInvocation destFile getAbsolutePath debug StatementExpression Assignment MemberReference result MethodInvocation MemberReference mis MemberReference destFile copyBytesToFile = CatchClause CatchClauseParameter IOException e StatementExpression MethodInvocation s_log BinaryOperation + BinaryOperation + BinaryOperation + BinaryOperation + BinaryOperation + BinaryOperation + Literal "downloadHttpFile: Unexpected exception while Literal "attempting to open an HTTP connection to url (" ") to download a file (" result	1
+"IF EXISTS ( SELECT * FROM sysobjects WHERE id = OBJECT_ID('" toString	1
+"Running for procedure MemberReference debug StatementExpression MethodInvocation s_log BinaryOperation + Literal MethodInvocation doi getSchemaName debug StatementExpression MethodInvocation s_log BinaryOperation + Literal name=" pstmt	0
+"Pre-launch update finished" start	1
+"Unexpected Exception" showErrorMessage	0
+"You must specify a ResourceBundle" resourceKey	1
+"null passed" error	0
+"SoMe FiLeNaMe" "Assert 0: wrong hashcode" "Assert 1: wrong hashcode" assertFalse	1
+"Maximum column length of 100,000 exceeded in column MethodInvocation NumberFormat MethodInvocation MemberReference format getIntegerInstance Literal in record MethodInvocation NumberFormat MethodInvocation MemberReference format getIntegerInstance Literal ". Set the SafetySwitch property to false" "Maximum column length of 100,000 exceeded in column MethodInvocation NumberFormat MethodInvocation MemberReference format getIntegerInstance Literal in record MethodInvocation NumberFormat MethodInvocation MemberReference format getIntegerInstance Literal ". Set the SafetySwitch property to false" hasReadNextLine	1
+"select * from MemberReference LocalVariableDeclaration ReferenceType VariableDeclarator extractor ClassCreator ReferenceType MemberReference MemberReference MemberReference checkOption IfStatement MemberReference dialectDiscoveryMode BlockStatement StatementExpression MethodInvocation MemberReference session MemberReference extractor ReturnStatement IfStatement MethodInvocation dialect supportsCreateView BlockStatement LocalVariableDeclaration ReferenceType String VariableDeclarator sql MethodInvocation dialect MemberReference MemberReference MemberReference checkOption MemberReference qualifier MemberReference prefs getCreateViewSQL StatementExpression MethodInvocation MemberReference session ArrayCreator ReferenceType String ArrayInitializer MemberReference sql MemberReference extractor runSQL IfStatement MethodInvocation dialect supportsCheckOptionsForViews BlockStatement StatementExpression Assignment MemberReference checkOption Literal = StatementExpression Assignment MemberReference sql MethodInvocation dialect MemberReference MemberReference MemberReference checkOption MemberReference qualifier MemberReference prefs getCreateViewSQL = StatementExpression MethodInvocation MemberReference session ArrayCreator ReferenceType String ArrayInitializer MemberReference sql ClassCreator ReferenceType MemberReference MemberReference MemberReference checkOption runSQL BlockStatement TryStatement StatementExpression MethodInvocation dialect MemberReference BinaryOperation + Literal "select * from MemberReference testCreateViewTable MemberReference checkOption MemberReference qualifier MemberReference prefs getCreateViewSQL StatementExpression MethodInvocation MemberReference dialect Literal "creating a view" println	0
+"Pre-launch update finished" showErrorDialog	1
+"Could read only MemberReference count Literal chars from a total file size of MemberReference fileSize Literal ". Import failed." "Text does not represent data of type MethodInvocation getClassName Literal ". Text was:\n" fileText	1
+"No ILookAndFeelController found for: MemberReference selLafClassName debug BlockStatement StatementExpression MethodInvocation s_log Literal "Selected Look and Feel class is null" validate	1
+"ArtifactStatus ( SuperMethodInvocation toString MemberReference TAB Literal "name = This MemberReference name MemberReference TAB Literal "type = This MemberReference type MemberReference TAB Literal "installed = This MemberReference installed MemberReference TAB Literal "displayType = This MemberReference displayType MemberReference TAB Literal "artifactAction = This MemberReference MemberReference TAB Literal )" retValue	1
+"Binding tablename name MethodInvocation dbo getSchemaName Literal as first value" setString	0
+"Unexpected exception while attempting to get primary key info" error	1
+"Mapped class" "Qualified name" "Property name" ret	1
+"Test 1: Incorrect File Returned." "Test 2: Incorrect File Returned." "Test 3: Incorrect File Returned." delete	1
+"show create table MemberReference ArraySelector MemberReference i MethodInvocation getQualifiedName dbObjs executeQuery TryStatement IfStatement MethodInvocation rs next BlockStatement StatementExpression MethodInvocation buf MethodInvocation MemberReference sep append MethodInvocation Literal '\n' append MethodInvocation rs Literal 2 getString append StatementExpression MethodInvocation rs close TryStatement StatementExpression MethodInvocation stmt close CatchClause CatchClauseParameter Exception ex StatementExpression MethodInvocation s_log Literal "Error occured closing PreparedStatement" ex	1
+"adding a primary key" println	1
+"Session Name" "Last addColumn StatementExpression MethodInvocation tm Literal "Current addColumn StatementExpression MethodInvocation tm Literal "SQL Address" tm	0
+"null passed" center	0
+"ISession == null" sif	1
+"_diffs is null" "specified row (" ") equals or exceeds Literal "_diffs size(" result	1
+"Error processing a DataSet" error	1
+"Failed to delete file" println	0
+"Null Component passed" true	1
+"Null ISession passed" getProperties	0

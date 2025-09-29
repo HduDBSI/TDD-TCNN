@@ -1,0 +1,301 @@
+"illegal argument" e	0
+"root element <menu> expected" menu	1
+"only instances of ExtendableToolBar allowed" install	1
+"select a from org.columba.core.association.Association a where a.itemId = '" "' and a.serviceId = '" "RemoveAssociation: Got more than one association, that is strange! try to remove all!" "RemoveAssociation: Exception while removing association! Will Rollback! MemberReference serviceId Literal MemberReference metaDataId Literal MemberReference itemId severe BlockStatement StatementExpression MethodInvocation ex printStackTrace StatementExpression MethodInvocation LOG MemberReference Level SEVERE Literal "RemoveAssociation: Got an Exception, but no Transaction active, so no Rollback!" log	1
+"Choose Background Color" repaint	1
+"Could not retrieve default menu bar" insertAction	1
+"Error while trying to load html viewer" "Error while trying to load html viewer -> falling back to default" printStackTrace	1
+"Printing UID=" print	1
+"<No Message-Text>" =	1
+"jabberId == null" m	1
+"folder == null" groupPartial	1
+"total startup time (ms)=" "total startup time (sec)=" println	1
+"The items are not equal" "The items are not equal" "The items are not equal" "The items are not equal" "The objects are the same" "The items are equal" "The item is equal to an empty item" "The item is equal to a null object" "The items are not equal" assertTrue	1
+"list <" "> is empty" value	0
+"menu == null" add	1
+"selection changed" ReturnStatement	1
+"From ???@???" close	1
+"This page is net!" "This page is net!" assertEquals	0
+"emailModel == null" add	1
+"filter result" assertEquals	0
+"Compose Message.." contextMenu	1
+"my account" "John Doe" "my account" "John Doe" "my account" "Kalle Kamel" "Self equality failed for item" "Self equality failed for item2" "item and item2 are not equal" "item2 and item are not equal" "item and item2 refers to the same object" "item is equal to a created AccountItem" "item is equal to null" "item and item3 are equal" assertFalse	1
+"filter result" assertEquals	0
+"id == null" containsKey	1
+"VM Max:" add	1
+"copied message should be marked as not seen" close	1
+"\"Firstname <mail@mail.org>" "\"Lastname, Firstname\" "test@test.de, Firstname Lastname <mail@mail.org>, \"Lastname, Firstname\" assertEquals	1
+"current script.name=" "current script.path=" "script file count=" "script file=" "added script.name=" "added script.path=" changedFiles	1
+"this is &frac12; encoded &#59; !" "this is ½ encoded !" assertEquals	1
+"Firstname can't contain comma character." "Lastname can't contain comma character." setVisible	1
+"<a href=\"" "</a>"	0
+"menuId == null" false	1
+"&nbsp<IMG SRC=\"" input	1
+"<A HREF=\"mailto:" assertEquals	1
+"keys == null" =	1
+"Converting body text to html" "Converting body text to text" validate	1
+": MethodInvocation e getLocalizedMessage Literal MethodInvocation MailResourceLoader Literal Literal Literal getString showErrorDialog IfStatement BinaryOperation == MemberReference result MemberReference JOptionPane CANCEL_OPTION BlockStatement ThrowStatement ClassCreator ReferenceType CommandCancelledException StatementExpression MethodInvocation popItem Literal Literal false setBoolean StatementExpression MethodInvocation popItem Literal MemberReference POP3Protocol DEFAULT_PORT setInteger StatementExpression MethodInvocation protocol openPort BlockStatement StatementExpression MethodInvocation protocol openPort IfStatement BinaryOperation && BinaryOperation && MemberReference ! usingSSL MemberReference sslEnabled BinaryOperation == MemberReference sslType MemberReference IncomingItem TLS BlockStatement IfStatement BinaryOperation || MethodInvocation Literal isSupported BinaryOperation == MemberReference capas length Literal 0 BlockStatement TryStatement StatementExpression MethodInvocation protocol startTLS StatementExpression Assignment MemberReference usingSSL Literal true = StatementExpression MethodInvocation LOG Literal "Switched to SSL" setBoolean	1
+"Unnamed HelpSet" setVisible	1
+"AddAssociation: Exception while persisting new association! Will Rollback! MemberReference serviceId Literal MemberReference metaDataId Literal MemberReference itemId severe StatementExpression MethodInvocation LOG MemberReference Level SEVERE Literal "Got an Exception, but no Transaction active, so no Rollback!" log	1
+"Choose Tag Color" "no Color" setText	1
+"Cannot access aspell process." e	1
+"The hashcode are not equal" assertEquals	0
+"uuid == null" doc	1
+"The factory returned a null object" "The factory returned a null object" "The factory returned the same object for different MemberReference col1 MemberReference col2 assertNotSame LocalVariableDeclaration ReferenceType Color VariableDeclarator col1again MethodInvocation ColorFactory Literal 0 getColor StatementExpression MethodInvocation Literal "The factory returned a null object" "The factory did not return the same object for a value" assertSame	1
+"The semaphore is not holding." "The semaphore is not holding." "The semaphore has not been released" "The semaphore is holding." "The semaphore is not holding." "The semaphore has not been released" assertTrue	1
+"An error occured while saving the database.\n" "Error saving database" save	1
+"Starting to import Eudora mbox file: MethodInvocation file getAbsolutePath fine LocalVariableDeclaration ReferenceType StringBuffer VariableDeclarator strbuf ClassCreator ReferenceType StringBuffer LocalVariableDeclaration ReferenceType BufferedReader VariableDeclarator in ClassCreator ReferenceType BufferedReader ClassCreator ReferenceType FileReader MemberReference file LocalVariableDeclaration ReferenceType String VariableDeclarator str LocalVariableDeclaration BasicType int VariableDeclarator msgCounter Literal 0 LocalVariableDeclaration ReferenceType String VariableDeclarator replacementDate Literal null WhileStatement BinaryOperation != Assignment MemberReference str MethodInvocation in readLine = Literal null BlockStatement IfStatement MethodInvocation worker cancelled BlockStatement ReturnStatement IfStatement BinaryOperation || MethodInvocation ! str Literal "From ???@???" "Import of Eudora mbox file completed. MemberReference msgCounter Literal messages imported" close	1
+"Error getting header list from virtual folder" getInstance	1
+"<a href=\"file://" "<html><head><title>Attachment list</title></head><body><p>\n" "; charset=" "Content-Type: MemberReference charset Literal "; name=\"attachmentlist.html\"\n\n" retVal	1
+"calendarmodel == null" getDocument	1
+"id == null" "basicModel == null" id	1
+"<A HREF=\"mailto:" toString	1
+"Importing messages..." "Message import failed! No messages were added to the folder.\n" "This means that the parser didn't throw any exception even if Literal didn't recognize the mailbox format or the messagebox simply Literal "didn't contain any messages." "Message import was successful!" showMessageDialog	1
+", namespace" toString	0
+"new filter" filter	0
+"<A HREF=\"mailto:" assertEquals	1
+"day == null" =	1
+"filter result" assertEquals	0
+"copied message should be marked as not seen" close	1
+"Correct value 'itemId1' found" removeAssociation	1
+"id == null" "document == null" save	1
+"message source should be equal" assertEquals	1
+"importing addressbook::::" close	1
+"missing attribute \"id\"" "missing attribute \"class\"" metadata	1
+"Unable to find destination folder, please correct the destination folder path for this filter" "File not found" c	1
+"subject=\\'High\\' comma!" "'High' comma!" assertEquals	1
+"Selected messages will be moved, when selecting \"Paste\"" "Selected messages will be moved, when selecting \"Paste\"" "Selected messages will be copied, when selecting \"Paste\"" "Selected messages will be copied, when selecting \"Paste\"" exportToClipboard	1
+"EE' 'dd MMM" dateAreaBean	1
+"The XML could not be loaded" "Name isnt correct" "The first attribute isnt correct" "The second attribute isnt correct" "The child name isnt correct" "The childs first attribute isnt correct" assertEquals	0
+"<html>Enter password for <b>" "</b> at <b>" getRoster	1
+"select a from org.columba.core.association.Association a where a.itemId = '" "RemoveItem: could not remove item" rollback	1
+"Parsing failed. Reason: MethodInvocation e getMessage println StatementExpression MethodInvocation parser printUsage ReturnStatement Literal true IfStatement MethodInvocation commandLine Literal hasOption BlockStatement StatementExpression MethodInvocation parser printUsage ReturnStatement Literal true IfStatement MethodInvocation commandLine Literal hasOption BlockStatement StatementExpression MethodInvocation LOG MethodInvocation MessageFormat MethodInvocation GlobalResourceLoader MemberReference RESOURCE_PATH Literal Literal getString ArrayCreator ReferenceType Object ArrayInitializer MethodInvocation VersionInfo getVersion MethodInvocation VersionInfo getBuildDate format info StatementExpression MethodInvocation System.out BinaryOperation + BinaryOperation + BinaryOperation + BinaryOperation + Literal "Columba (" false	1
+"&frac12; this is &#160;this is &#59;this is &#59;this is &#59;\nthis is &#59;\nthis is &#59;" assertEquals	1
+"test@test.de, \"Lastname, Firstname\"" "list size 3" "Firstname Lastname" assertEquals	0
+"Could not add the file '" "' to the attachment list, due to:" warning	1
+"placeholder id <" "> already used." put	1
+"This is a test" "> $1" assertTrue	1
+"Choose Profile:" "Always ask on startup." getRootPane	1
+"Composing Message..." message	1
+"filter result" assertEquals	0
+"<a href=\"mailto:" result	1
+"Some messages could not be because they do not exist anymore!" j	1
+"placeholderId == null" insertPlaceholder	1
+"filter result" assertEquals	0
+"menuBar == null" add	1
+"Hello World!" assertEquals	0
+"No virtual folder created since no message was selected" "Error getting MemberReference vfolderType Literal header. No virtual folder created" =	1
+"> was due to a instanciation error" plugin	1
+"message source should be equal" close	1
+"color == null" =	1
+"old path=" "new path=" setName	1
+"Message does not exist anymore." toString	1
+"renderer == null" append	1
+"id == null" metadata	1
+"<style type=\"text/css\">\n" "a { color: blue; text-decoration: underline Literal "font.quoting {color:#949494;} font.italic {font-style:italic;color:#000;} \n" append	1
+"filter result" assertEquals	1
+"Something went wrong setting Aqua LookAndFeel" printStackTrace	1
+"pgp activated: MethodInvocation pgpItem Literal get fine StatementExpression Assignment MemberReference pgpActive ClassCreator MethodInvocation booleanValue ReferenceType Boolean MethodInvocation pgpItem Literal get = LocalVariableDeclaration ReferenceType IMailFolderCommandReference VariableDeclarator result Literal null StatementExpression MethodInvocation LOG Literal "pgp is fine IfStatement MethodInvocation firstPartMimeType MethodInvocation Literal equals getSubtype BlockStatement StatementExpression Assignment MemberReference result MethodInvocation MemberReference folder MemberReference uid MemberReference pgpActive verify = IfStatement MethodInvocation firstPartMimeType MethodInvocation Literal equals getSubtype BlockStatement StatementExpression MethodInvocation LOG Literal "Mimepart type encrypted found" result	1
+"update menu=" "Advanced Search..." "Advanced Search..." pack	1
+"Select ..." jpanel1	0
+"filter result" assertEquals	1
+"missing extension point id attribute" pluginMetadata	1
+"one message should be in source folder" "one message should be in source folder" close	1
+"new filter" "Mark Message" filter	1
+"A demo text that is a little tad bit longer" "Short demo text" "This text just goes on and on and on.\n\nIt simply doesn't stop" "Button 1" "Button 2" "Button 3" "Button MemberReference parent createJComponentShape addSubShape StatementExpression MethodInvocation hBoxAShape MethodInvocation Literal Literal "MiG InfoCom AB" "MiG InfoCom AB" root	1
+"Firstname Lastname" "\"Lastname, Firstname\"" assertEquals	1
+"Starting background tasks..." MethodInvocation	1
+"$startTime$ $summary$" root	1
+"missing <extensionlist> element" elements	1
+"searchTerm == null" "searchCriteriaTechnicalName == null" result	1
+"vFolder for search critera <" "> not found" getInstance	1
+"extract MethodInvocation file getName Literal to MethodInvocation destination getAbsolutePath info LocalVariableDeclaration ReferenceType File VariableDeclarator pluginDirectory TryStatement StatementExpression MethodInvocation ZipFileIO MemberReference file MemberReference destination extract StatementExpression Assignment MemberReference pluginDirectory MethodInvocation ZipFileIO MemberReference file getFirstFile = CatchClause CatchClauseParameter IOException ioe StatementExpression MethodInvocation JOptionPane This MethodInvocation GlobalResourceLoader MemberReference RESOURCE_PATH Literal Literal getString MethodInvocation GlobalResourceLoader MemberReference RESOURCE_PATH Literal Literal getString MemberReference JOptionPane ERROR_MESSAGE showMessageDialog ReturnStatement IfStatement BinaryOperation != MemberReference pluginDirectory Literal null BlockStatement StatementExpression Assignment MemberReference pluginDirectory ClassCreator ReferenceType File MemberReference destination MethodInvocation pluginDirectory getName = StatementExpression MethodInvocation LOG BinaryOperation + Literal "plugin directory=" showMessageDialog	1
+"<A HREF=\"" assertEquals	1
+"selected folder=" getView	1
+"requests == null" "startIndex must be >= 0" "resultCount must be > 0" getInstance	1
+"<meta http-equiv=\"Content-Type\" "<style type=\"text/css\"><!-- append StatementExpression MethodInvocation buf MemberReference css append StatementExpression MethodInvocation buf Literal --></style>" toString	1
+"file == null" "jarFile == null" url	1
+"statusrenderer-> instanceof String not expected" This	1
+"Error: Cannot write to temp file needed Literal "for external editor." "Error: Cannot write to temp file needed Literal "for external editor:\n" tmpFile	1
+"action up performed" getInstance	1
+"The \"Fwd:\" "The \"Fwd:\" "[columba-devel] = StatementExpression Assignment MemberReference result MethodInvocation MemberReference s = StatementExpression MethodInvocation Literal "The \"Fwd:\" "[columba-devel] MemberReference result assertEquals StatementExpression Assignment MemberReference s Literal "[columba-devel] Re: re: Re: = StatementExpression Assignment MemberReference result MethodInvocation MemberReference s = StatementExpression MethodInvocation Literal "The \"Fwd:\" assertEquals	0
+"XML config error while attempting to read from the input stream \n'" "XML parse error while attempting to read from the input stream \n'" "I/O error while attempting to read from the input stream \n'" true	1
+"Found MemberReference messages length Literal messages in file" in	1
+"dir = null" exists	1
+"Mark Message" getRoot	0
+"Associated item size correct!" "Associated item size not correct, MethodInvocation store MethodInvocation size Literal Literal getAssociatedItems Literal should be 2" "Associated item size correct!" "Associated item size not correct, MethodInvocation store MethodInvocation size Literal Literal getAssociatedItems Literal should be 1" "Associated item size correct!" "Associated item size not correct, MethodInvocation store MethodInvocation size Literal Literal getAssociatedItems Literal should be 0" fail	1
+"--> popup" "--> no popup" println	1
+"Error adding Tag" "Error adding Tag" showMessageDialog	1
+"jabberId == null" containsKey	1
+"<a href=\"mailto:email@internet.org\">email@internet.org</a>, Literal "<a href=\"mailto:ftp@internet.org\">ftp@internet.org</a>, Literal "<a href=\"mailto:web@internet.org\">web@internet.org</a>" "addresses wasnt rendered correctly" assertEquals	1
+"filter result" assertEquals	0
+"Start Time:" "All Day" "All Day" "End Time:" jpanel1	1
+"starting with empty folder" "starting with empty folder" "message-folderinfo exists" "Number of unseen messages in folder" close	1
+"searchTerm == null" "providerName == null" "startIndex must be >= 0" "resultCount must be > 0" getInstance	1
+"Correct value 'itemId1' found" removeAssociation	1
+"can't find contact store for \"" frameMediator	1
+"> is not of type Float" setObject	0
+"<!DOCTYPE HTML PUBLIC Literal "\"-//W3C//DTD HTML 3.2//EN\">\r\n" "<meta Literal Literal "content=\"text/html; charset=" "Charset was US-ASCII but text has 8-bit chars -> switched to UTF-8" bodyPart	1
+"null message should be in source folder" "null message should be in source folder" close	1
+"filter result" assertEquals	0
+"uid == null" null	1
+"The \"Re:\" "Re: a subject" "The \"Re:\" "[columba-devel] = StatementExpression Assignment MemberReference result MethodInvocation MemberReference s = StatementExpression MethodInvocation Literal "The \"Re:\" "[columba-devel] MemberReference result assertEquals StatementExpression Assignment MemberReference s Literal "[columba-devel] Re: Re: re: Re: = StatementExpression Assignment MemberReference result MethodInvocation MemberReference s = StatementExpression MethodInvocation Literal "The \"Re:\" assertEquals	0
+"The parent and the cloned object are not equal" "The parent and the cloned object are the same" "The parent and the cloned Xml Elements objects are the same object." "The parent and the cloned Xml Elements objects are not equal." "The parent and the cloned object did not return the same hashcodes" "a NAME" "other addAttribute StatementExpression MethodInvocation xml Literal addSubElement StatementExpression MethodInvocation xml ClassCreator ReferenceType XmlElement Literal addSubElement StatementExpression Assignment MemberReference item1 ClassCreator ReferenceType DefaultItem MemberReference xml = StatementExpression Assignment MemberReference item2 Cast ReferenceType IDefaultItem MethodInvocation item1 clone = StatementExpression MethodInvocation Literal "The parent and the cloned object are not equal" "The parent and the cloned object are the same" "The getRoot() method did not return the same object put MemberReference xml MethodInvocation item1 getRoot assertSame StatementExpression MethodInvocation Literal "The parent and the cloned Xml Elements objects are the same object." "The parent and the cloned Xml Elements objects are not equal." "The parent and the cloned Xml Elements objects are the same object." "The parent and the cloned object did not return the same hashcodes" assertEquals	1
+"searchTerm == null" "criteriaTechnicalName == null" result	1
+"id == null" "extension == null" "duplicate id=" put	1
+"folderId = null" "name == null" "contact folder does not exist" id	1
+"model == null" "id == null" item	1
+"left:max(20dlu;pref), 3dlu, 80dlu:grow" getRootPane	1
+": Not enough open frames!" frames	1
+"searchTerm == null" repaint	1
+"Save Attachment as ..." "Overwrite File?" tempFile	1
+"list == null" addAddress	1
+"<html><body><p><!- this is a text without comments -></p></body></html>" "<html><body><p><!- this is a text without comments -></p></body></html>" assertTrue	1
+"The XML elements are equal" "The XML elements are equal" assertTrue	1
+"id == null" exists	1
+"a nice" add	1
+"<style type=\"text/css\"><!-- .bodytext MemberReference name Literal "\"; MemberReference size Literal "pt; \"}" ".quoting {color:#949494;}; --></style>" css	1
+"parentStore == null" "parentId == null" uuid	1
+"<A HREF=\"mailto:" assertEquals	1
+"Field = \"" result	1
+"Could not parse the MethodInvocation ClassCreator ReferenceType ByteArrayInputStream MethodInvocation baos toByteArray load assertTrue LocalVariableDeclaration ReferenceType XmlElement VariableDeclarator actual MethodInvocation MethodInvocation Literal 0 getElement getRoot StatementExpression MethodInvocation Literal "The original and the XML element are not equal" assertEquals	0
+"date parsing exception" getInstance	1
+"Business Phone" "Assistant Phone" "Business Fax" "Callback Phone" "Car Phone" "Company Phone" "Home Phone" "Home Fax" "Mobile Phone" "Other Phone" "Other Fax" addActionListener	1
+"id == null" "basicModel == null" modify	1
+"Spam Filter" getInstance	1
+"name == null" "> does not exist" add	0
+"Message with UID=" getInstance	1
+"Got following exception:" next	1
+"Bill Gates" "Bill's private mail" component	1
+"Found MemberReference deletedMessages Literal deleted Messages" severe	1
+"Failed to load service: MethodInvocation e1 getMessage severe IfStatement MemberReference Logging DEBUG StatementExpression MethodInvocation e1 printStackTrace ReturnStatement Literal null IfStatement BinaryOperation instanceof MemberReference service ReferenceType BlockStatement StatementExpression MethodInvocation LOG MemberReference Level WARNING BinaryOperation + Literal plugin doesn't declare an Literal "IColumbaService interface. Service ignored..." service	1
+"Re: Subject" "Re: Subject" assertEquals	0
+"folder == null" "to == nllu" "account uid == null" getInstance	1
+"Expected StoreException, not MethodInvocation e getMessage fail StatementExpression MethodInvocation Literal "Expected StoreException, got no exception" fail	1
+"The thread waiting for the Attachment Temporary command was interrupted." warning	1
+"Store is ready" "Store is not ready" println	1
+"basicModel == null" id	1
+"modelPartial == null" remove	1
+"str == null" "str.length() == 0" c	1
+"' in '" "' could not be found." MemberReference	1
+"No suitable extension handler with name MemberReference extensionpointId Literal found" severe	1
+"Save Attachment as ..." "Overwrite File?" tempFile	1
+"Scripts directory doesn't exist:" "script search path=" listFiles	1
+"str == null" result	1
+"resourceName == null" icon	1
+"Server does not support the CAPA command" updateAuthenticationComboBox	1
+"filter result" assertEquals	1
+"name == null" "name length == 0" =	1
+"/" "." delimiter	1
+"Columba MethodInvocation VersionInfo getVersion write StatementExpression MethodInvocation writer MemberReference NEWLINE write StatementExpression MethodInvocation writer flush StatementExpression MethodInvocation writer BinaryOperation + Literal "User MethodInvocation System Literal MemberReference ColumbaServer ANONYMOUS_USER getProperty write StatementExpression MethodInvocation writer MemberReference NEWLINE write StatementExpression MethodInvocation writer flush StatementExpression Assignment MemberReference reader ClassCreator ReferenceType BufferedReader ClassCreator ReferenceType InputStreamReader MethodInvocation socket getInputStream = LocalVariableDeclaration ReferenceType String VariableDeclarator response MethodInvocation reader readLine IfStatement MethodInvocation response Literal "WRONG USER" AuthenticationException	1
+"Ha ha, wouldn't it be really sweet if this were implemented?" setButtonStatus	1
+"<a href=\"mailto:email@internet.org\">Emil</a>, Literal "<a href=\"mailto:ftp@internet.org\">Alfred</a>" "address wasnt rendered correctly" assertEquals	1
+"Columba (" header	1
+"> is not of type binary" setObject	0
+"The get(int) method returned the wrong filter." "The get(int) method returned the wrong filter." "The get(int) method returned the wrong filter." "The get(int) method returned the wrong filter." "The get(int) method returned the wrong filter." "The get(int) method returned the wrong filter." assertEquals	0
+"contactModel == null" getDocument	1
+"menu will become visible" updatePopupMenu	1
+"id == null" id	1
+"this &auml; is encoded!" "this ä is encoded!" assertEquals	1
+": MethodInvocation e getLocalizedMessage Literal MethodInvocation MailResourceLoader Literal Literal Literal getString showErrorDialog IfStatement BinaryOperation == MemberReference result Literal 1 BlockStatement ThrowStatement ClassCreator ReferenceType CommandCancelledException StatementExpression MethodInvocation item Literal Literal false setBoolean StatementExpression MethodInvocation item Literal MemberReference IMAPProtocol DEFAULT_PORT setInteger StatementExpression MethodInvocation protocol openPort BlockStatement StatementExpression MethodInvocation protocol openPort IfStatement BinaryOperation && BinaryOperation && MemberReference ! usingSSL MemberReference sslEnabled BinaryOperation == MemberReference sslType MemberReference IncomingItem TLS BlockStatement IfStatement BinaryOperation || BinaryOperation || MethodInvocation Literal isSupported MethodInvocation Literal isSupported BinaryOperation == MemberReference capabilities length Literal 0 BlockStatement TryStatement StatementExpression MethodInvocation protocol startTLS StatementExpression Assignment MemberReference usingSSL Literal true = StatementExpression MethodInvocation LOG Literal "Switched to SSL" setBoolean	1
+"abcdefgh ABCDEFGH" =	1
+"id == null" model	1
+"starting with empty folder" "starting with empty folder" "message source should be equal" "one message should be in this folder" "message-folderinfo exists" close	1
+"Extended Away" BreakStatement	1
+"document == null" "id == null" type"	1
+"Cache miss - fetching from server" result	1
+"className == null" plugin	1
+"Presence Mode=" printStackTrace	1
+"id == null" "contact == null" modify	1
+"name == null" tag	1
+"Hello World for message-uid=" c	1
+"a Name" "a StatementExpression MethodInvocation xml Literal Literal addAttribute StatementExpression MethodInvocation xml Literal Literal "other addAttribute StatementExpression MethodInvocation xml Literal addSubElement StatementExpression MethodInvocation xml ClassCreator ReferenceType XmlElement Literal addSubElement StatementExpression MethodInvocation Literal "The Name isnt correct" "a Name" "The Data isnt correct" "a MethodInvocation xml getData assertEquals StatementExpression MethodInvocation Literal "The attribute 'key' isnt correct" "The attribute 'key' isnt correct" "other MethodInvocation xml Literal getAttribute assertEquals StatementExpression MethodInvocation Literal "The child element isnt correct" assertEquals	0
+"<A HREF=\"" toString	0
+"flags found" "custom headerfield" getInstance	1
+"IMAPRoot is null" locker	1
+"> $1" quotedBodyText	1
+"id == null" "document == null, id=" basicModel	1
+"Show Attachments &Inline" "Message Renderer" "This is an experimental feature and therefore requires a of Columba" getInstance	1
+"Re: test" assertEquals	1
+"freqString = null" set	1
+"item == null" add	1
+"Command MethodInvocation op toString Literal added" MethodInvocation	1
+"uid == null" "Zero IContactItem's were specified to add to addressbook folder" add	1
+"NormalTag should be there!" "NormalTag not deleted!" fail	1
+"<a href=\"mailto:email@internet.org\">email@internet.org</a>" "address wasnt rendered correctly" assertEquals	1
+"store instance is null" fail	1
+"Store is ready!" "Store is not should be after init!" fail	1
+"filter result" assertEquals	0
+"Re: test" assertEquals	1
+"no criteria <" "> found" criteria	1
+"Re: Subject" assertEquals	0
+"> is not of type Integer" getObject	0
+"Msg uid was null" "Msg uid was null" "Msg uid was null" "Msg 1 is MethodInvocation folder MethodInvocation getSeen MemberReference uid1 getFlags assertFalse StatementExpression MethodInvocation Literal for msg 2 was null" "Msg 2 is MethodInvocation folder MethodInvocation getSeen MemberReference uid2 getFlags assertTrue StatementExpression MethodInvocation Literal for msg 3 was null" assertEquals	0
+"No frames available" createDialog	1
+"searchTerm == null" "providerName == null" "criteriaName == null" "startIndex must be >= 0" "resultCount must be > 0" getInstance	1
+"filter result" assertEquals	0
+"Training messages..." "Training messages..." "learning uid=" getInstance	1
+"Executing bsh: MethodInvocation script getPath append LocalVariableDeclaration ReferenceType Interpreter VariableDeclarator bsh ClassCreator ReferenceType Interpreter StatementExpression MethodInvocation bsh MethodInvocation MethodInvocation getClassLoader getClass TryStatement ForStatement ForControl VariableDeclaration ReferenceType Iterator VariableDeclarator it MethodInvocation vars MethodInvocation iterator entrySet MethodInvocation it hasNext BlockStatement LocalVariableDeclaration ReferenceType Map ReferenceType Entry VariableDeclarator entry Cast ReferenceType Map ReferenceType Entry MethodInvocation it next StatementExpression MethodInvocation bsh MethodInvocation entry MethodInvocation toString getKey MethodInvocation entry getValue set StatementExpression MethodInvocation bsh MethodInvocation script getPath source CatchClause CatchClauseParameter FileNotFoundException ex StatementExpression MethodInvocation logger MethodInvocation String Literal "File %s not found" "IOException in %s" "Failed to process script %s" append	1
+"test@test.de, test2@test2.de" "list size 2" assertEquals	1
+"From Jan 3 Literal "From 1\n" "From Jan 3 Literal LocalVariableDeclaration ReferenceType MboxMessage VariableDeclarator messages MethodInvocation ClassCreator ReferenceType CharSequenceSource MemberReference parseMbox StatementExpression MethodInvocation Literal 2 MemberReference messages length assertEquals LocalVariableDeclaration ReferenceType String VariableDeclarator message MethodInvocation Cast BasicType int MemberReference ArraySelector Literal 0 MethodInvocation getStart messages Cast BasicType int BinaryOperation + MemberReference ArraySelector Literal 0 MethodInvocation getStart messages MemberReference ArraySelector Literal 0 MethodInvocation getLength messages substring StatementExpression MethodInvocation Literal "From 1\n" assertEquals	0
+"dir = null" success	1
+"document == null" "id == null" model	1
+"border: 1px solid black; font-size: 8pt; font-weight: bold;" "border: 1px solid black; font-size: 8pt;" "<table style=\"background-color: #dddddd;\" "Error parsing header value: MethodInvocation e getMessage severe StatementExpression MethodInvocation buf BinaryOperation + BinaryOperation + Literal "<tr><td style=\"" "<td style=\"" msg	1
+"input == null" toArray	1
+"Mark's Lunch" getInstance	1
+"header is null" This	1
+"ASSOCIATION STORE IS NULL!" "URI IS NULL!" false	1
+"compose message" addOption	1
+"No such row in the table model [" "]"	1
+"<html><body><p><!-- this is a \n" "\t\twhich is spread over \n" "<h1>A header </h><!-- a little --><p>" "<i>The end</i></p></body></html>" "<html><body><p>And some text</p> \n\n" "<h1>A header </h><p>" "<i>The end</i></p></body></html>" assertTrue	1
+"There should be one attachment" "Should be type of StreamableMimePart" assertEquals	1
+": Not enough open frames!" frames	1
+"</HEAD><BODY class=\"bodytext\"><P>" toString	1
+"> is not of type String" getObject	1
+"Error splitting message into headers and body" "Content-Type: multipart/alternative replaced with MemberReference header fine BlockStatement LocalVariableDeclaration ReferenceType String VariableDeclarator split MethodInvocation MemberReference body createAttachmentListFromAttachmentConverted IfStatement BinaryOperation || BinaryOperation == MemberReference split Literal null BinaryOperation == MemberReference split length Literal 1 BlockStatement StatementExpression Assignment MemberReference header MethodInvocation MemberReference body guessBodyContentType = StatementExpression MethodInvocation LOG BinaryOperation + BinaryOperation + BinaryOperation + Literal "Content-Type: multipart/" "Content-Type: multipart/mixed. Boundaries added to msg body" "MIME-Version: 1.0\n" "X-Attachments header replaced by Content-Type: MemberReference header fine BlockStatement LocalVariableDeclaration ReferenceType String VariableDeclarator MethodInvocation MemberReference body getUniqueBoundary StatementExpression MethodInvocation headerBuf Literal "MIME-Version: 1.0\n" "X-Attachments header replaced by Content-Type: multipart/mixed" ": MemberReference header Literal append StatementExpression Assignment MemberReference line MethodInvocation tokenizer nextLine = IfStatement MemberReference ! dateFound BlockStatement StatementExpression MethodInvocation LOG Literal "Date header missing - constructing new one" "Content-Type header missing - constructing new one" "Content-Type: MethodInvocation MemberReference body guessBodyContentType StatementExpression MethodInvocation headerBuf Literal "MIME-Version: 1.0\n" saveMessage	1
+"dynamic item" "dynamic 2" setVisible	0
+"dateString == null" "dateString.length() == 0" cal	1
+"no Description specified" This	1
+"Property [" ", MethodInvocation property getValue Literal println IfStatement MethodInvocation component MethodInvocation MemberReference Component VTODO equals getName BlockStatement ForStatement ForControl VariableDeclaration ReferenceType Iterator VariableDeclarator j MethodInvocation component MethodInvocation iterator getProperties MethodInvocation j hasNext BlockStatement LocalVariableDeclaration ReferenceType Property VariableDeclarator property Cast ReferenceType Property MethodInvocation j next LocalVariableDeclaration ReferenceType String VariableDeclarator name MethodInvocation property getName LocalVariableDeclaration ReferenceType String VariableDeclarator value MethodInvocation property getValue StatementExpression MethodInvocation System.out BinaryOperation + BinaryOperation + BinaryOperation + BinaryOperation + Literal "Property [" iterator	1
+"a Name" "The parent and the cloned object are not equal" "The parent and the cloned object are the same" "The parent and the cloned Attributes objects are the same object." "The parent and the cloned Sub Element objects are the same object." "a Name" "The parent and the cloned object are not equal" "The parent and the cloned object are the same" "The parent and the cloned Attributes objects are the same object." "The parent and the cloned Sub Element objects are the same object." "a NAME" "other addAttribute StatementExpression MethodInvocation xml1 Literal addSubElement StatementExpression MethodInvocation xml1 ClassCreator ReferenceType XmlElement Literal addSubElement StatementExpression Assignment MemberReference xml2 Cast ReferenceType XmlElement MethodInvocation xml1 clone = StatementExpression MethodInvocation Literal "The parent and the cloned object are not equal" "The parent and the cloned object are the same" "The parent and the cloned Attributes objects are the same object." "The parent and the cloned Sub Element objects are the same object." "The Name is not the same" "a NAME" "The value for Attributes key='key' is not the expected" "The value for Attributes key='key2' is not the expected" "other MethodInvocation xml2 Literal getAttribute assertEquals StatementExpression MethodInvocation Literal "The first childs name is not the expected" "The second childs name is not the expected" "The parent and cloned object hashCode() methods return different values." assertEquals	1
+"There should be one attachment" "Should be type of StreamableMimePart" assertEquals	1
+", enabled=" toString	1
+"in == null" map	1
+"select a from org.columba.core.association.Association a where a.itemId = '" results	1
+"reuse existing virtual folder" "result count=" result	1
+"Training messages..." printStackTrace	1
+"placeholderId == null, for element MethodInvocation element toString IfStatement BinaryOperation == MethodInvocation placeholders MemberReference placeholderId containsKey Literal false BlockStatement IfStatement MemberReference Logging DEBUG StatementExpression MethodInvocation StatementExpression MethodInvocation LOG BinaryOperation + BinaryOperation + BinaryOperation + BinaryOperation + Literal "no matching placeholder with id <" "> in menu <" "> found." index	1
+"Hello World!" showMessageDialog	0
+"Zero IContactItem's were specified to add to addressbook folder" ReturnStatement	1
+"Unable to find destination folder, please correct the destination folder path for this filter" "File not found" c	1
+"No such column in the table model [" "No such row in the table model [" value	1
+"id == null" "handler == null" put	1
+"All Day" setEnabled	1
+"one message should be in destination folder" close	1
+"Error: Cannot read from temp file used Literal "by external editor." "Error: Cannot read from temp file used Literal "by external editor." message	1
+"found recent message" false	1
+"<style type=\"text/css\">\n" "a { color: blue; text-decoration: underline Literal "font.quoting {color:#949494;} \n" =	0
+"This page is net!" "This page is net!" assertEquals	0
+"Date: append StatementExpression MethodInvocation dateHeader BinaryOperation + MemberReference dow Literal append StatementExpression MethodInvocation dateHeader BinaryOperation + BinaryOperation + BinaryOperation + BinaryOperation + BinaryOperation + Literal MemberReference day Literal MemberReference mon Literal MemberReference append StatementExpression MethodInvocation dateHeader BinaryOperation + Literal MemberReference time append IfStatement BinaryOperation && BinaryOperation == MemberReference timeZone Literal null MethodInvocation timeZone Literal equals BlockStatement StatementExpression MethodInvocation dateHeader BinaryOperation + Literal MemberReference timeZone append ReturnStatement MethodInvocation dateHeader toString CatchClause CatchClauseParameter java.util.NoSuchElementException e StatementExpression MethodInvocation LOG BinaryOperation + BinaryOperation + Literal "Not enough tokens in \"" null	1
+"filter result" assertEquals	1
+"select a from org.columba.core.association.Association a where a.serviceId = '" "' and a.metaDataId = '" itemCollection	1
+"list == null" "separator == null" toString	1
+"<a href=\"" "</a>"	0
+"my account" "John Doe" "my account" "John Doe" "my account" "Kalle Kamel" "The hashcodes of item and item2 are not the same" "The hashcodes of item and a new object are the same" "The hashcodes of item and item3 are the same" assertFalse	1
+"(\\w+) (\\w+/\\w+)" result	1
+"Error parsing body: MethodInvocation e getMessage severe StatementExpression Assignment MemberReference body Literal "<em>Error parsing body!!!</em>" "<title>E-mail saved by Columba</title>" "</head><body><p class=\"bodytext\">" severe	1
+"dir = null" success	1
+"folderId = null" "contactId == null" "contact folder does not exist" createContactItem	1
+"<i><font color='#333333'>" name	1
+"creating process.." "sending to stdin.." "retrieving output.." waitForThreads	1
+"item == null" remove	1
+"> is not of type String" setObject	0
+"<html><body><p><!-- this is a -->And some text</p></body></html>" "<html><body><p>And some text</p></body></html>" assertTrue	1
+"The indexof() method did not return the right index" "The indexof() method did not return the right index" "The indexof() method did not return the right index" "The indexof() method did not return the right index" "The indexof() method did not return the right index" assertEquals	1
+"\nThis is a test\nForget the rest\n\n\n" "> $1" assertTrue	1
+"icon == null" "action == null" "border == null" b	1
+"id == null" remove	1
+"menuId == null" "no menu with id MemberReference menuId Literal found" insert	1
+"root element <menubar> expected" menuBar	1
+"id == null" "frameMediator == null" a	1
+"This page is net!" "This page is net!" assertEquals	0

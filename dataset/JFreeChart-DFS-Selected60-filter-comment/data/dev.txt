@@ -1,0 +1,99 @@
+"OrsonPDF is not present on the classpath." ex	1
+"No exception should be thrown." fail	0
+"The number of series keys does not match the data." fireDatasetChanged	0
+"Series 1" assertTrue	0
+"DefaultIntervalCategoryDataset.setValue: Literal "series outside valid range." "DefaultIntervalCategoryDataset.setValue: Literal "unrecognised category." fireDatasetChanged	1
+"Series 1" "Series 2" "No exception should be thrown." fail	0
+"Index out of range." get	1
+"{3} - {4}" MemberReference	0
+"Series 1" "Series 1" assertEquals	1
+"Task 1" "Task 2" "Task 3" assertEquals	1
+"Empty Series" "Empty Series" assertTrue	1
+"Series A" "Task 1" "Task 2" "Series B" "Task 2" MemberReference	0
+"The 'row' argument is out of bounds." row	1
+"The cannot be null." "The 'data' is null." "The 'data' array must have length == IfStatement BinaryOperation || BinaryOperation != MemberReference ArraySelector Literal 0 MemberReference length data MemberReference ArraySelector Literal 1 MemberReference length data BinaryOperation != MemberReference ArraySelector Literal 0 MemberReference length data MemberReference ArraySelector Literal 2 MemberReference length data BlockStatement ThrowStatement ClassCreator ReferenceType IllegalArgumentException BinaryOperation + Literal "The 'data' array must contain Literal "three all having the same length." notifyListeners	0
+"Label 1" "Label 2" assertTrue	1
+"A test" assertTrue	1
+"Cannot parse string." range."	1
+"The key (" ") is not recognised." index	0
+"Some non-DateAxis object" assertTrue	1
+"Not yet implemented." "Not yet implemented." "Not yet implemented." "Not yet implemented." "Not yet implemented." "Not yet implemented." "Not yet implemented." calculateTotalHeight	1
+"Type 1" "Type 2" "Type 3" "Type LocalVariableDeclaration ReferenceType String VariableDeclarator type5 Literal "Type LocalVariableDeclaration ReferenceType String VariableDeclarator type6 Literal "Type 6" "Type 7" "Type 8" result	0
+"No exceptions should be thrown." assertEquals	0
+"There should be no exception." fail	0
+"Series 1" "Series 2" "Category 1" "Category 2" "Category 3" "Category 1" "Category 1" assertTrue	1
+"Series {0}" assertTrue	0
+"Series 1" "Series 1" assertTrue	1
+"No exception should be thrown." fail	1
+"Index outside valid range." fireDatasetChanged	1
+"No exception should be thrown." fail	0
+"Series 2" collection	0
+"Not implemented." type."	1
+"Task 1" "Task 2" "Task 2" assertTrue	1
+"Category 1" "Category 2" assertTrue	1
+"Expected an IllegalArgumentException for null." assertTrue	0
+"Index outside valid range." series	1
+"Expected an IllegalArgumentException for null." assertTrue	0
+"The key (" ") is not recognised." getObject	0
+"Series 1" "Series 2" "Category 1" "Category 2" "Category 3" "Category 2" "Series 1" "Category 2" "Category 2" "Category 2" assertTrue	1
+"No exception should be thrown." fail	0
+"Type 1" "Type 2" "Type 3" "Type LocalVariableDeclaration ReferenceType String VariableDeclarator type5 Literal "Type LocalVariableDeclaration ReferenceType String VariableDeclarator type6 Literal "Type 6" "Type 7" "Type 8" result	0
+"Series 1" assertTrue	0
+"Product 1" "Product 1" "Product 1" "Product 1" "Product 1" assertEquals	0
+"Column 1" "Column 2" "Column 1" "Column 2" assertEquals	0
+"There is already a handler with that ID (" add	0
+"Series 1" assertEquals	1
+"Type 1" "Type 2" "Type 3" "Type LocalVariableDeclaration ReferenceType String VariableDeclarator type5 Literal "Type LocalVariableDeclaration ReferenceType String VariableDeclarator type6 Literal "Type 6" "Type 7" "Type 8" result	0
+"Task 1" "Task 2" "Task 3" result	0
+"Green Eggs and Ham" assertEquals	0
+"Series 1" "Series 2" "No exception should be thrown." fail	0
+"Key 1" "Key 2" "Key 3" "Key 1" "Key 2" "Key 3" assertTrue	0
+"Series 1" assertEquals	1
+"Export to SVG" file	0
+"New Label" "New Label" assertTrue	1
+"New ToolTip" "New ToolTip" "New URL" "New URL" assertTrue	1
+"Session is null - will not be deleted" println	1
+"Key 1" "Key 2" "Key 3" assertEquals	0
+"Test Series" "Clone Series" "Test Series" "Clone Series" assertEquals	1
+"<area shape=\"" toString	1
+"Series index out of bounds" seriesArray	1
+"Series 1" assertEquals	0
+"Series 1" assertEquals	0
+"Expected an IllegalArgumentException for null." assertTrue	0
+"Visual Basic" =	1
+"No exception should be thrown." fail	0
+"{3} - {4}" assertEquals	0
+"Task 1" "Task 2" "Task 3" assertEquals	1
+"Series {0}" "Series 1" "Series 2" assertEquals	0
+"Key" e	0
+"Key 1" "Key 2" "Key 3" assertEquals	1
+"Index outside valid range." fireDatasetChanged	1
+"Not implemented." "Not implemented." "Not implemented." "Not implemented." "Not implemented." Size2D	1
+"ItemLabelGenerator not cloneable." "ItemLabelGenerator not cloneable." "Tool tip generator not cloneable." "Base tip generator not cloneable." "Item URL generator not cloneable." "Base item URL generator not cloneable." clone	1
+"Series {0}" assertEquals	0
+"periodCount must be greater Literal "than or equal to 1." result	1
+"You are trying to add data where the time period class append StatementExpression MethodInvocation b Literal "is append StatementExpression MethodInvocation b MethodInvocation item MethodInvocation getClass MethodInvocation getName getPeriod append StatementExpression MethodInvocation b Literal ", but the TimeSeries is expecting an instance of append StatementExpression MethodInvocation b This MemberReference MethodInvocation getName append StatementExpression MethodInvocation b Literal append ThrowStatement ClassCreator ReferenceType SeriesException MethodInvocation b toString LocalVariableDeclaration BasicType boolean VariableDeclarator added Literal false LocalVariableDeclaration BasicType int VariableDeclarator count MethodInvocation getItemCount IfStatement BinaryOperation == MemberReference count Literal 0 BlockStatement StatementExpression This MemberReference data MethodInvocation MemberReference item add StatementExpression Assignment MemberReference added Literal true = BlockStatement LocalVariableDeclaration ReferenceType RegularTimePeriod VariableDeclarator last MethodInvocation BinaryOperation - MethodInvocation getItemCount Literal 1 getTimePeriod IfStatement BinaryOperation > MethodInvocation item MethodInvocation MemberReference last compareTo getPeriod Literal 0 BlockStatement StatementExpression This MemberReference data MethodInvocation MemberReference item add StatementExpression Assignment MemberReference added Literal true = BlockStatement LocalVariableDeclaration BasicType int VariableDeclarator index MethodInvocation Collections This MemberReference data MemberReference item binarySearch IfStatement BinaryOperation < MemberReference index Literal 0 BlockStatement StatementExpression This MemberReference data MethodInvocation BinaryOperation - MemberReference - index Literal 1 MemberReference item add StatementExpression Assignment MemberReference added Literal true = BlockStatement LocalVariableDeclaration ReferenceType StringBuilder VariableDeclarator b ClassCreator ReferenceType StringBuilder StatementExpression MethodInvocation b Literal "You are attempting to add an for append StatementExpression MethodInvocation b Literal "the time period append StatementExpression MethodInvocation b MethodInvocation item MethodInvocation toString getPeriod append StatementExpression MethodInvocation b Literal but the series already contains an observation" "permitted. Try using the addOrUpdate() method." MethodInvocation	1
+"Series index out of bounds." s	1
+"Series 1" "Series 1" "Series 2" "Series 2" "Series 2" "Series 2" assertTrue	1
+"X-value already exists." "X-value already exists." MethodInvocation	1
+"Series 1" assertEquals	1
+"Series 1" "Type 1" "Series 1" "Type 2" assertTrue	0
+"Column 0" "Column 0" "Column 0" "Column 1" "Column 1" "Column 1" assertTrue	1
+"No exception should be thrown." fail	0
+"Item 1" "Item 2" "Item 3" "Item 1" "Item 2" "Item 3" "Item Literal 1.0 setValue StatementExpression Assignment MemberReference d2 MethodInvocation DatasetUtilities MemberReference d1 Literal Literal 0.05 Literal 2 createConsolidatedPieDataset = StatementExpression MethodInvocation Literal 3 MethodInvocation d2 getItemCount assertEquals StatementExpression MethodInvocation Literal "Item 2" "Item 3" assertEquals	1
+"Category 1" "Category 2" "Category 1" "Category 2" assertEquals	1
+"Null argument." y	0
+"Test for jfreechart running with SWT" sleep	1
+"Index 'series' out of range." get	1
+"Series 1" assertTrue	1
+"No exception should be triggered." fail	0
+"Series 1" "Series 1" "Series 1" "Series 1" "Series 1" "Series 1" assertTrue	1
+"Series 1" assertEquals	1
+"Expected an IllegalArgumentException for null." assertTrue	0
+"TaskSeriesCollection.remove(): index outside valid range." fireDatasetChanged	1
+"Series 1" "Series 2" "Series 2" assertTrue	1
+"Stacked Bar 3D" true	1
+"Series 1" createTimeSeriesChart	0
+"Task 1" "Task 2" "Task 3" e	1
+"Column 1" "Column 2" assertEquals	0
+"JFreeChart: Demo 1" setVisible	0

@@ -1,0 +1,101 @@
+"selected" invoke	1
+"Error while looking for charset: MethodInvocation e getMessage severe LocalVariableDeclaration ReferenceType String VariableDeclarator charset Literal null WhileStatement BinaryOperation != MemberReference line Literal null BlockStatement StatementExpression Assignment MemberReference line MethodInvocation line trim = IfStatement BinaryOperation && BinaryOperation > MethodInvocation line length Literal 5 MethodInvocation line Literal 0 Literal 5 substring BlockStatement LocalVariableDeclaration ReferenceType String VariableDeclarator lcLine MethodInvocation line toLowerCase IfStatement BinaryOperation || BinaryOperation != MethodInvocation lcLine Literal indexOf Literal - 1 BinaryOperation != MethodInvocation lcLine Literal indexOf Literal - 1 BlockStatement LocalVariableDeclaration BasicType int VariableDeclarator pos MethodInvocation lcLine Literal indexOf IfStatement BinaryOperation != MemberReference pos Literal - 1 BlockStatement StatementExpression Assignment MemberReference pos MethodInvocation lcLine Literal '=' MemberReference pos indexOf = StatementExpression MemberReference ++ pos WhileStatement BinaryOperation == MethodInvocation lcLine MemberReference pos charAt Literal ' ' BlockStatement StatementExpression MemberReference ++ pos LocalVariableDeclaration BasicType int VariableDeclarator end MethodInvocation lcLine length LocalVariableDeclaration BasicType int VariableDeclarator tmp MethodInvocation lcLine Literal '>' MemberReference pos indexOf IfStatement BinaryOperation != MemberReference tmp Literal - 1 StatementExpression Assignment MemberReference end MemberReference tmp = StatementExpression Assignment MemberReference tmp MethodInvocation lcLine Literal '"' MemberReference pos indexOf = IfStatement BinaryOperation && BinaryOperation != MemberReference tmp Literal - 1 BinaryOperation < MemberReference tmp MemberReference end StatementExpression Assignment MemberReference end MemberReference tmp = StatementExpression Assignment MemberReference tmp MethodInvocation lcLine Literal ' ' MemberReference pos indexOf = IfStatement BinaryOperation && BinaryOperation != MemberReference tmp Literal - 1 BinaryOperation < MemberReference tmp MemberReference end StatementExpression Assignment MemberReference end MemberReference tmp = StatementExpression Assignment MemberReference charset MethodInvocation line MemberReference pos MemberReference end substring = BreakStatement TryStatement StatementExpression Assignment MemberReference line MethodInvocation reader readLine = CatchClause CatchClauseParameter IOException e StatementExpression MethodInvocation LOG BinaryOperation + Literal "Error while looking for charset: MethodInvocation e getMessage severe StatementExpression Assignment MemberReference line Literal null = IfStatement BinaryOperation && BinaryOperation != MemberReference charset Literal null BinaryOperation > MethodInvocation charset length Literal 0 ReturnStatement BinaryOperation + Literal charset=" "text/html"	1
+"Can't set look & feel:" Statement	1
+"Re: test" assertEquals	1
+"<style type=\"text/css\">\n" "a { color: blue; text-decoration: underline Literal "font.quoting {color:#949494;} font.italic {font-style:italic;color:#000;} \n" append	1
+"filter result" assertEquals	0
+"header is null" This	1
+"Message wasn't sent. Would you like to save your changes?" "Warning: Message was modified" getInstance	1
+"'W 'w" "MMMM dd" monthlyDateAreaBean	1
+"Saving MethodInvocation destFile getName setDisplayText LocalVariableDeclaration ReferenceType File VariableDeclarator tempFile ClassCreator ReferenceType File BinaryOperation + MethodInvocation destFile getAbsoluteFile Literal IfStatement BinaryOperation == MemberReference tempFile Literal null ReturnStatement LocalVariableDeclaration BasicType int VariableDeclarator encoding MethodInvocation header getContentTransferEncoding SwitchStatement MemberReference encoding SwitchStatementCase MemberReference MimeHeader QUOTED_PRINTABLE StatementExpression Assignment MemberReference bodyStream ClassCreator ReferenceType QuotedPrintableDecoderInputStream MemberReference bodyStream = BreakStatement SwitchStatementCase MemberReference MimeHeader BASE64 StatementExpression Assignment MemberReference bodyStream ClassCreator ReferenceType Base64DecoderInputStream MemberReference bodyStream = BreakStatement SwitchStatementCase IfStatement MethodInvocation LOG MemberReference Level FINE isLoggable BlockStatement StatementExpression MethodInvocation LOG BinaryOperation + Literal "Storing the attachment to :" clearDisplayTextWithDelay	1
+"Wrong number of filters in the list." "Wrong number of filters in the list." "Wrong number of filters in the list." assertEquals	1
+"id == null" null	1
+"menuItem == null" "placeholderId == null" insert	1
+"Experience Blue" "Error while trying to load MemberReference pluginName Literal Look and Feel.\nSwitching back to default." printStackTrace	1
+"filter result" assertEquals	1
+"Charset was US-ASCII but text has 8-bit chars -> switched to UTF-8" bodyPart	1
+"setting content-pane" =	1
+"Got following exception:" "Anniversary" "Anniversary year" "AllDayEvent" "I will the whole day do some work" "at home" "NormalEvent" println	1
+"folderId = null" "contact folder does not exist" v	1
+"activity moved=" println	1
+"> is not of type Integer" setObject	0
+"Usage: cmd url" "No valid url: \"" "options: '" "options/gui/window/width: '" "options/gui/window/width: Literal "**Not found in this XML document**" println	1
+"resourceName == null" icon	1
+"phoneModel == null" add	1
+"Unable to load native look and feel" println	1
+"menu == null" =	1
+"jabberId == null" null	1
+"new filter" addElement	1
+"filter result" assertEquals	0
+"Account templates missing!" getSmtpItem	1
+"filter result" assertEquals	1
+"Tag Folder" tagFolder	1
+"this &#59; is encoded!" "this is encoded!" assertEquals	1
+"> is not of type Float" getObject	0
+"tag = MethodInvocation tag getId Literal | MethodInvocation tag getName println IfStatement MethodInvocation tag MethodInvocation Literal equals getName BlockStatement StatementExpression Assignment MemberReference found Literal true = StatementExpression MethodInvocation System.out Literal "Found NormalTag" println	1
+"IMAPRoot is null" releaseLock	1
+"columba.flags." get	1
+"Start:\n $startTime$\nEnd:\n $endTimeExcl$" "$startTime$ $summary$" root	1
+"Mark Message" repaint	1
+"Saving UID=" ioe	1
+"list size 0" assertEquals	0
+"path = null" url	1
+"$startTime$ - $endTimeExcl$" root	1
+"This is a test\nForget the rest\n\n\n" "> $1" assertTrue	1
+"Could not delete MethodInvocation file getAbsolutePath Literal ". Will try to delete it on exit" info	1
+"Internal error" This	1
+"Attachment Converted:" "<a href=\"file://" "<html><head><title>Attachment list</title></head><body><p>\n" "; charset=" "Content-Type: MemberReference charset Literal "; name=\"attachmentlist.html\"\n\n" null	1
+"main font" "text font" getInstance	1
+"resourcePath == null" id	1
+"Scoring messages ..." execute	1
+"Error while trying to load html viewer" "Error while trying to load html viewer -> falling back to default" viewerPlugin	1
+"Associated item size correct!" "Associated item size not correct, MethodInvocation store MethodInvocation size Literal Literal getAssociatedItems Literal should be 2" "Associated item size correct!" "Associated item size not correct, MethodInvocation store MethodInvocation size Literal Literal getAssociatedItems Literal should be 1" "Associated item size correct!" "Associated item size not correct, MethodInvocation store MethodInvocation size Literal getAllAssociations Literal should be 2" "Associated item size correct!" "Associated item size not correct, MethodInvocation store MethodInvocation size Literal Literal getAssociatedItems Literal should be 0" fail	1
+"Folder \"" "Folder \"" null	1
+"id == null" remove	1
+"child type for <" "> does not exist" value	1
+"No filter created since no message was selected" "Error getting MemberReference filterType Literal header. No filter created" =	1
+"className == null" plugin	1
+"String was not found!" "String was not found!" dispose	1
+"id == null" delete	1
+"root element <menubar> expected" parseMenu	1
+"Error deleting Tag" showMessageDialog	1
+"<?xml version=\"1.0\" flush	1
+"plugins core" "plugins core" "plugins external" "plugins external" pop	1
+"searchTerm == null" "startIndex must be >= 0" "resultCount must be > 0" getInstance	1
+"instantMessaging == null" add	1
+"header == null" str	1
+"tag == null" getId	1
+"popup == null" popup	1
+"Compose Message.." contextMenu	1
+"no Location specified" This	1
+"NormalTag not found" "NormalTag found" println	1
+"Columba startsWith BlockStatement ReturnStatement StatementExpression Assignment MemberReference line MethodInvocation reader readLine = IfStatement MethodInvocation ! line Literal "User startsWith BlockStatement ReturnStatement LocalVariableDeclaration ReferenceType PrintWriter VariableDeclarator writer ClassCreator ReferenceType PrintWriter MethodInvocation client getOutputStream IfStatement MethodInvocation ! line MethodInvocation MethodInvocation System Literal MemberReference ANONYMOUS_USER getProperty equals Literal 5 substring BlockStatement StatementExpression MethodInvocation writer Literal "WRONG USER\r\n" ioe	1
+"filter result" assertEquals	0
+"list size 1" assertEquals	1
+"date parsing exception" getInstance	1
+"this is&lt;encoded&gt;!" "this is<encoded>!" assertEquals	1
+"The XML elements are not equal" "The XML elements are not equal" "The XML elements are not equal" "The XML elements are not equal" assertFalse	1
+"IContactItem is null" ReturnStatement	1
+"menuId == null" "no menu with id MemberReference menuId Literal found" insert	1
+"one message should be in destination folder" "one message should be in destination folder" close	1
+"id == null" file	1
+"Wrong number of filters in the list." "Wrong number of filters in the list." "Wrong number of filters in the list." assertEquals	1
+"Monitoring directories not yet supported" monitorFile	1
+"id == null" "controller == null" a	1
+"\n<font class=\"quoting\">$1$3</font>" replaceAll	1
+"Dr. Richard K. Ellington" "Bob Jones" "Ms. Jill Hark" "Robert B. Smith, Esq." "Johnson, PhD." "Sue & Gene Stark" println	1
+"$startTime$-$endTimeExcl$ $summary$" root	1
+"This is a test\nForget the rest\n\n" "> $1" assertTrue	1
+"inputstream length=" beep	1
+"Quoted body text:\n" setBodyText	1
+"Choose Tag Color" "no Color" "no Color" getDocument	1
+"start decrypting" "new JSCConnection" "new fine LocalVariableDeclaration ReferenceType PGPPassChecker VariableDeclarator passCheck MethodInvocation PGPPassChecker getInstance LocalVariableDeclaration BasicType boolean VariableDeclarator check MethodInvocation passCheck MemberReference con checkPassphrase StatementExpression MethodInvocation LOG BinaryOperation + Literal "after pass check, check is MemberReference check fine IfStatement MemberReference ! check BlockStatement StatementExpression Assignment MemberReference pgpMode MemberReference SecurityStatusViewer DECRYPTION_FAILURE = StatementExpression Assignment MemberReference pgpMessage Literal "wrong passphrase" "encrypted is != null?: BinaryOperation != MemberReference encryptedPart Literal null fine LocalVariableDeclaration ReferenceType JSCFResultSet VariableDeclarator res MethodInvocation stmt MemberReference encryptedPart executeDecrypt StatementExpression MethodInvocation LOG Literal "after calling decrypting" "the result set contains errors fine StatementExpression Assignment MemberReference pgpMode MemberReference SecurityStatusViewer DECRYPTION_FAILURE = StatementExpression Assignment MemberReference pgpMessage MethodInvocation StreamUtils MethodInvocation toString MethodInvocation res getErrorStream readCharacterStream = StatementExpression MethodInvocation LOG BinaryOperation + Literal "error message: MemberReference pgpMessage fine StatementExpression Assignment MemberReference decryptedStream MethodInvocation res getResultStream = BlockStatement StatementExpression Assignment MemberReference decryptedStream MethodInvocation res getResultStream = StatementExpression Assignment MemberReference pgpMode MemberReference SecurityStatusViewer DECRYPTION_SUCCESS = CatchClause CatchClauseParameter JSCFException e StatementExpression MethodInvocation e printStackTrace StatementExpression MethodInvocation LOG MethodInvocation e getMessage severe StatementExpression Assignment MemberReference pgpMode MemberReference SecurityStatusViewer DECRYPTION_FAILURE = StatementExpression Assignment MemberReference pgpMessage MethodInvocation e getMessage = StatementExpression Assignment MemberReference decryptedStream MemberReference encryptedPart = TryStatement StatementExpression MethodInvocation LOG BinaryOperation + Literal "decrypted Stream is: MemberReference decryptedStream fine LocalVariableDeclaration ReferenceType CharSequence VariableDeclarator decryptedBodyPart Literal IfStatement MemberReference pgpActive BlockStatement StatementExpression Assignment MemberReference decryptedBodyPart MethodInvocation StreamUtils MemberReference decryptedStream readCharacterStream = IfStatement BinaryOperation == MethodInvocation decryptedBodyPart length Literal 0 BlockStatement StatementExpression MethodInvocation LOG Literal "decrypted body part has a 0 length ... fixing it" "Content-Type: charset=\"ISO-8859-15\"\n\n" "Content-Type: charset=\"ISO-8859-15\"\n\n" null	1
+"creating process.." "sending to stdin.." "retrieving output.." false	1
+"Message is marked as spam" setText	1
+"NonDefaultSearch engine MethodInvocation toString Literal "reported an error: falling back to default search:\n" toArray	1
+"Error while trying to load filter plugin =" instance	1
+"Firstname Lastname <mail@mail.org>" "\"Lastname, Firstname\" assertEquals	1
+"menuId == null" "no menu for MemberReference menuId Literal found" menu	1
+"columba.flags." set	1
+"folderId = null" "emailAddress == null" "contact folder does not exist" id	1
+"Opening MethodInvocation header getFileName setDisplayText LocalVariableDeclaration ReferenceType InputStream VariableDeclarator bodyStream MethodInvocation folder MemberReference ArraySelector Literal 0 uids MemberReference address getMimePartBodyStream StatementExpression Assignment MemberReference bodyStream ClassCreator ReferenceType ProgressObservedInputStream MemberReference bodyStream MemberReference worker = IfStatement MethodInvocation header MethodInvocation getType MethodInvocation Literal equals getMimeType BlockStatement StatementExpression Assignment MemberReference tempFolder MethodInvocation FolderTreeModel MethodInvocation getTempFolder getInstance = TryStatement StatementExpression Assignment MemberReference tempMessageUid MethodInvocation tempFolder MemberReference bodyStream addMessage = CatchClause CatchClauseParameter Exception e StatementExpression MethodInvocation LOG Literal "Could not create temporary email from the attachment." "Storing the attachment to :" close	1
