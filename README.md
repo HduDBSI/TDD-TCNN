@@ -21,6 +21,8 @@ Source code and data for our paper "Detecting Technical Debt from Method-level C
        ├── TextCNN.py
        ├── TextRNN_Att.py
        ├── Transformer.py
+       ├── chatgpt.py
+       ├── GraphcodeBert.py
 ```
 
 ## Reproduction Instructions
@@ -30,6 +32,15 @@ Source code and data for our paper "Detecting Technical Debt from Method-level C
 nohup python -u run_cmd.py --model CNNTransformer-Seq --dataset DFS-Selected60 --device 0 > TDD-TCNN.output 2>&1 &
 nohup python -u run_cmd.py --model TextCNN --dataset DFS --device 0 > CNN.output 2>&1 &
 nohup python -u run_cmd.py --model Transformer --dataset DFS --device 0 > Transformer.output 2>&1 &
+nohup python -u chatgpt.py --api_key sk-xxx --input_file dataset/td-dataset.csv --output_file chatgpt_td_results.csv --model gpt-4o --delay 1.0 > ChatGPT.output 2>&1 &
+nohup python -u GraphcodeBert.py --input_file ../dataset/td-dataset.csv --save_dir saved_models/graphcodebert --batch_size 4 --eval_batch_size 8 --epochs 3 --lr 5e-5 > GraphCodeBERT.output 2>&1 &
+```
+
+### RQ-Feature Fusion
+```bash
+nohup python -u run_cmd.py --model CNNTransformer-Seq --dataset DFS-Selected60-filter --device 0 > TDD-TCNN-full.output 2>&1 &
+nohup python -u run_cmd.py --model CNNTransformer-Seq --dataset DFS-Selected60-filter-code --device 0 > TDD-TCNN-code.output 2>&1 & 
+nohup python -u run_cmd.py --model CNNTransformer-Seq --dataset DFS-Selected60-filter-comment --device 0 > TDD-TCNN-comment.output 2>&1 & 
 ```
 
 ### RQ-DFS & BFS
