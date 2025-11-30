@@ -29,15 +29,33 @@ Source code and data for our paper "Detecting Technical Debt from Method-level C
 ## Dataset Source Information
 The dataset consists of the following project versions (as listed in the paper). Note that these are based on official source release archives (stable releases), not specific git commit snapshots.
 
-Ant 1.7: [https://mvnrepository.com/artifact/org.apache.ant/ant/1.7.1] 
-ArgoUML 0.34: [https://github.com/JavaQualitasCorpus/argouml-0.34]
-Columba 1.4: [https://sourceforge.net/projects/columba/files/Columba/1.4/columba-1.4-src.zip/download]
-Hibernate 3.3.2 GA: [https://mvnrepository.com/artifact/org.hibernate/hibernate/3.3.2.GA]
-JEdit 4.2: [https://sourceforge.net/projects/jedit/files/jedit/4.4.2/]
-JFreeChart 1.0.19: [https://sourceforge.net/projects/jfreechart/files/1.%20JFreeChart/1.0.19/]
-JMeter 2.1: [https://archive.apache.org/dist/jakarta/jmeter/source/jakarta-jmeter-2.1_src.tgz]
-JRuby 1.4: [https://www.jruby.org/files/downloads/1.4.0/index.html]
-SQuirrel 3.3: [https://sourceforge.net/projects/squirrel-sql/files/1-stable/3.3.0/squirrel-sql-3.3.0-install.jar/download]
+- **Ant 1.7**  
+  https://mvnrepository.com/artifact/org.apache.ant/ant/1.7.1
+
+- **ArgoUML 0.34**  
+  https://github.com/JavaQualitasCorpus/argouml-0.34
+
+- **Columba 1.4**  
+  https://sourceforge.net/projects/columba/files/Columba/1.4/columba-1.4-src.zip/download
+
+- **Hibernate 3.3.2 GA**  
+  https://mvnrepository.com/artifact/org.hibernate/hibernate/3.3.2.GA
+
+- **JEdit 4.2**  
+  https://sourceforge.net/projects/jedit/files/jedit/4.4.2/
+
+- **JFreeChart 1.0.19**  
+  https://sourceforge.net/projects/jfreechart/files/1.%20JFreeChart/1.0.19/
+
+- **JMeter 2.1**  
+  https://archive.apache.org/dist/jakarta/jmeter/source/jakarta-jmeter-2.1_src.tgz
+
+- **JRuby 1.4**  
+  https://www.jruby.org/files/downloads/1.4.0/index.html
+
+- **SQuirrel 3.3**  
+  https://sourceforge.net/projects/squirrel-sql/files/1-stable/3.3.0/squirrel-sql-3.3.0-install.jar/download
+
 
 ## Reproduction Instructions
 
