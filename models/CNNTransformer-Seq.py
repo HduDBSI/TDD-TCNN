@@ -1,6 +1,6 @@
 # coding: UTF-8
 import math
-
+import os
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -74,9 +74,38 @@ class Config(object):
         self.save_path = manual_dataset_path  + '/saved_dict/' + self.model_name + '.ckpt' if hasattr(args, 'dataset') and args.dataset else default_dataset_path + '/saved_dict/' + self.model_name + '.ckpt'
         self.log_path = manual_dataset_path + '/log/' + self.model_name if hasattr(args, 'dataset') and args.dataset else default_dataset_path + '/log/' + self.model_name
 
-        self.embedding_pretrained = args.embedding_pretrained if hasattr(args, 'embedding_pretrained') and args.embedding_pretrained else torch.tensor(
-            np.load(default_dataset_path + '/data/' + embedding)["embeddings"].astype('float32'))\
-            if embedding != 'random' else None
+        # 根据embedding策略加载预训练embedding
+        self.embedding_pretrained = None
+        if hasattr(args, 'embedding_pretrained') and args.embedding_pretrained:
+            self.embedding_pretrained = args.embedding_pretrained
+        elif embedding != 'random':
+            # 检查是否有自定义embedding路径
+            if hasattr(args, 'embedding_path') and args.embedding_path:
+                # 从指定路径加载embedding
+                embedding_file = args.embedding_path
+                if os.path.exists(embedding_file):
+                    self.embedding_pretrained = torch.tensor(np.load(embedding_file).astype('float32'))
+                    print(f"加载{embedding} embedding从: {embedding_file}")
+                    print(f"Embedding维度: {self.embedding_pretrained.shape}")
+                else:
+                    print(f"警告: {embedding_file} 不存在，使用random embedding")
+            elif embedding == 'codebert':
+                # CodeBERT默认路径
+                codebert_file = os.path.join('embeddings', 'codebert_embedding.npy')
+                if os.path.exists(codebert_file):
+                    self.embedding_pretrained = torch.tensor(np.load(codebert_file).astype('float32'))
+                    print(f"加载CodeBERT embedding从: {codebert_file}")
+                    print(f"Embedding维度: {self.embedding_pretrained.shape}")
+                else:
+                    print(f"警告: {codebert_file} 不存在，使用random embedding")
+            else:
+                # 默认路径加载（cbow/skipgram/fasttext）
+                embedding_file = default_dataset_path + '/data/' + embedding
+                if os.path.exists(embedding_file + '.npz'):
+                    self.embedding_pretrained = torch.tensor(
+                        np.load(embedding_file + '.npz')["embeddings"].astype('float32'))
+                elif os.path.exists(embedding_file + '.npy'):
+                    self.embedding_pretrained = torch.tensor(np.load(embedding_file + '.npy').astype('float32'))
 
 
         self.dropout = args.dropout if hasattr(args, 'dropout') and args.dropout else 0.5
@@ -90,8 +119,10 @@ class Config(object):
         self.embed = args.embed if hasattr(args, 'embed') and args.embed else self.embedding_pretrained.size(1) if self.embedding_pretrained is not None else 300
 
         self.embedding = args.embedding if hasattr(args, 'embedding') and args.embedding else embedding
-        self.word_save_path = args.word_save_path if hasattr(args, 'word_save_path') and args.word_save_path else "/data/embedding/fasttest-word.ckpt"
-        self.word2idx_path = args.word2idx_path if hasattr(args, 'word2idx_path') and args.word2idx_path else "/data/embedding/fasttest-word2idx.ckpt"
+        # 默认词表路径，如果使用预训练embedding，会在utils.py中根据embedding_path更新
+        # 使用manual_dataset_path而不是default_dataset_path，以支持不同的数据集后缀
+        self.word_save_path = args.word_save_path if hasattr(args, 'word_save_path') and args.word_save_path else manual_dataset_path + '/data/vocab.pkl'
+        self.word2idx_path = args.word2idx_path if hasattr(args, 'word2idx_path') and args.word2idx_path else manual_dataset_path + '/data/vocab.pkl'
         self.num_layers = int(args.num_layers) if hasattr(args, 'num_layers') and args.num_layers else 4
         self.num_head = int(args.num_head) if hasattr(args, 'num_head') and args.num_head else 4
 

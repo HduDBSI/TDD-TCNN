@@ -80,7 +80,6 @@ class Model(nn.Module):
             self.embedding = nn.Embedding(config.n_vocab, config.embed, padding_idx=config.n_vocab - 1)
 
         self.postion_embedding = Positional_Encoding(config.embed, config.pad_size, config.dropout, config.device)
-        # self.encoder = Encoder(config.dim_model, config.num_head, config.dim_feedforward, config.dropout)
         r"""
         Args:
             dim_model: the number of expected features in the input (required).
@@ -88,9 +87,10 @@ class Model(nn.Module):
             dim_feedforward: the dimension of the feedforward network model (default=2048).
             dropout: the dropout value (default=0.1).
         """
+        # 先创建一个 encoder 实例作为模板，然后用它来创建多个副本
+        encoder_template = Encoder(config.dim_model, config.num_head, config.dim_feedforward, config.dropout)
         self.encoders = nn.ModuleList([
-            copy.deepcopy(self.encoder)
-            # Encoder(config.dim_model, config.num_head, config.hidden, config.dropout)
+            copy.deepcopy(encoder_template)
             for _ in range(config.num_encoder)])
 
         self.fc1 = nn.Linear(config.pad_size * config.dim_model, config.num_classes)

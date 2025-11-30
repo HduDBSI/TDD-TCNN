@@ -33,7 +33,29 @@ def build_vocab(file_path, tokenizer, max_size, min_freq):
     return vocab_dic
 
 
-def build_dataset(config, ues_word=True,use_config_pad=True):
+def merge_files(file_paths, output_path):
+    """合并多个文件到一个临时文件"""
+    with open(output_path, 'w', encoding='UTF-8') as outfile:
+        for file_path in file_paths:
+            if os.path.exists(file_path):
+                with open(file_path, 'r', encoding='UTF-8') as infile:
+                    for line in infile:
+                        outfile.write(line)
+            else:
+                print(f"Warning: {file_path} does not exist, skipping...")
+
+def merge_train_files(train_paths, output_path):
+    """合并多个训练文件到一个临时文件（保持向后兼容）"""
+    merge_files(train_paths, output_path)
+
+
+def build_dataset(config, ues_word=True,use_config_pad=True, train_paths=None, dev_paths=None, test_paths=None):
+    """
+    构建数据集
+    train_paths: 如果提供多个训练文件路径，将合并它们用于跨项目训练
+    dev_paths: 如果提供多个验证文件路径，将合并它们用于跨项目训练
+    test_paths: 如果提供多个测试文件路径，将合并它们用于跨项目训练
+    """
     if ues_word:
         tokenizer = lambda x: x.split(' ')  # 以空格隔开，word-level
     else:
@@ -45,11 +67,103 @@ def build_dataset(config, ues_word=True,use_config_pad=True):
     #     pkl.dump(vocab, open(config.vocab_path, 'wb'))
     # print(f"Vocab size: {len(vocab)}")
 
+    # 如果提供了多个训练路径，合并它们
+    actual_train_path = config.train_path
+    temp_train_path = None
+    if train_paths and len(train_paths) > 0:
+        if len(train_paths) > 1:
+            import tempfile
+            temp_train_path = tempfile.mktemp(suffix='.txt', prefix='merged_train_')
+            merge_files(train_paths, temp_train_path)
+            actual_train_path = temp_train_path
+            print(f"Merged {len(train_paths)} training files into temporary file: {temp_train_path}")
+        else:
+            # 只有一个训练路径，直接使用
+            actual_train_path = train_paths[0]
+    
+    # 如果提供了多个验证路径，合并它们
+    actual_dev_path = config.dev_path
+    temp_dev_path = None
+    if dev_paths and len(dev_paths) > 0:
+        if len(dev_paths) > 1:
+            import tempfile
+            temp_dev_path = tempfile.mktemp(suffix='.txt', prefix='merged_dev_')
+            merge_files(dev_paths, temp_dev_path)
+            actual_dev_path = temp_dev_path
+            print(f"Merged {len(dev_paths)} dev files into temporary file: {temp_dev_path}")
+        else:
+            actual_dev_path = dev_paths[0]
+    
+    # 如果提供了多个测试路径，合并它们
+    actual_test_path = config.test_path
+    temp_test_path = None
+    if test_paths and len(test_paths) > 0:
+        if len(test_paths) > 1:
+            import tempfile
+            temp_test_path = tempfile.mktemp(suffix='.txt', prefix='merged_test_')
+            merge_files(test_paths, temp_test_path)
+            actual_test_path = temp_test_path
+            print(f"Merged {len(test_paths)} test files into temporary file: {temp_test_path}")
+        else:
+            actual_test_path = test_paths[0]
 
     if config.embedding=='random':
         # 自己构建词表
-        vocab = build_vocab(config.train_path,tokenizer=tokenizer,max_size=MAX_VOCAB_SIZE,min_freq=1)
+        vocab = build_vocab(actual_train_path,tokenizer=tokenizer,max_size=MAX_VOCAB_SIZE,min_freq=1)
         pkl.dump(vocab,open(config.vocab_path,'wb'))
+    elif config.embedding in ['cbow', 'skipgram', 'fasttext', 'codebert']:
+        # 使用训练好的embedding词表
+        if hasattr(config, 'embedding_path') and config.embedding_path:
+            # 从embedding路径推断词表路径
+            base_path = config.embedding_path.replace('.npy', '')
+            vocab_path = base_path + '_vocab.pkl'
+            word2idx_path = base_path + '_word2idx.pkl'
+            if os.path.exists(vocab_path):
+                vocab = pkl.load(open(vocab_path, 'rb'))
+                print(f"加载{config.embedding}词表从: {vocab_path}")
+                print(f"Vocab size: {len(vocab)}")
+                # 更新config中的词表路径
+                if hasattr(config, 'word_save_path'):
+                    config.word_save_path = vocab_path
+                if hasattr(config, 'word2idx_path'):
+                    config.word2idx_path = word2idx_path
+            else:
+                print(f"警告: {vocab_path} 不存在，使用随机词表")
+                vocab = build_vocab(actual_train_path,tokenizer=tokenizer,max_size=MAX_VOCAB_SIZE,min_freq=1)
+                pkl.dump(vocab,open(config.vocab_path,'wb'))
+        elif config.embedding == 'codebert':
+            # CodeBERT默认路径
+            codebert_vocab_path = os.path.join('embeddings', 'codebert_embedding_vocab.pkl')
+            if os.path.exists(codebert_vocab_path):
+                vocab = pkl.load(open(codebert_vocab_path, 'rb'))
+                print(f"加载CodeBERT词表从: {codebert_vocab_path}")
+                print(f"Vocab size: {len(vocab)}")
+            else:
+                print(f"警告: {codebert_vocab_path} 不存在，使用随机词表")
+                vocab = build_vocab(actual_train_path,tokenizer=tokenizer,max_size=MAX_VOCAB_SIZE,min_freq=1)
+                pkl.dump(vocab,open(config.vocab_path,'wb'))
+        else:
+            # 尝试从默认位置加载embedding词表
+            default_embedding_paths = [
+                os.path.join('embeddings', f'{config.embedding}_embedding_vocab.pkl'),
+            ]
+            vocab_loaded = False
+            for vocab_path in default_embedding_paths:
+                if os.path.exists(vocab_path):
+                    vocab = pkl.load(open(vocab_path, 'rb'))
+                    print(f"加载{config.embedding}词表从默认路径: {vocab_path}")
+                    print(f"Vocab size: {len(vocab)}")
+                    vocab_loaded = True
+                    # 更新config中的词表路径
+                    if hasattr(config, 'word_save_path'):
+                        config.word_save_path = vocab_path
+                    break
+            
+            if not vocab_loaded:
+                # 如果找不到预训练词表，构建新词表
+                print(f"警告: 未找到{config.embedding}的预训练词表，从训练数据构建新词表")
+                vocab = build_vocab(actual_train_path,tokenizer=tokenizer,max_size=MAX_VOCAB_SIZE,min_freq=1)
+                pkl.dump(vocab,open(config.vocab_path,'wb'))
     else:
         # 使用预训练的词表
         vocab = pd.read_pickle(config.word_save_path)
@@ -105,12 +219,22 @@ def build_dataset(config, ues_word=True,use_config_pad=True):
 
     # 不使用默认配置中的pad_size
     if use_config_pad == False:
-        pad_size = get_pad_size(config.train_path)
+        pad_size = get_pad_size(actual_train_path)
         config.pad_size=pad_size
-    train = load_dataset(config.train_path, config.pad_size)
-    dev = load_dataset(config.dev_path, config.pad_size)
-    test = load_dataset(config.test_path, config.pad_size)
+    train = load_dataset(actual_train_path, config.pad_size)
+    dev = load_dataset(actual_dev_path, config.pad_size)
+    test = load_dataset(actual_test_path, config.pad_size)
     # print(pad_size)
+    
+    # 清理临时文件
+    temp_files = [temp_train_path, temp_dev_path, temp_test_path]
+    for temp_file in temp_files:
+        if temp_file and os.path.exists(temp_file):
+            try:
+                os.remove(temp_file)
+            except:
+                pass
+    
     return vocab, train, dev, test
 
 
