@@ -1,5 +1,5 @@
 # Technical Debt Detection based on Transformer with Convolutional Neural Network (TDD-TCNN)
-Source code and data for our paper "Detecting Technical Debt from Method-level Code Snippets". We propose a TDD-TCNN, a novel deep-learning approach for method-level TD detection through source code and comments from multiple perspectives. 
+Source code and data for our paper "Method-level Technical Debt Detection based on Source Code and Comments". We propose a TDD-TCNN, a novel deep-learning approach for method-level TD detection through source code and comments from multiple perspectives. 
 
 ## Directory Structure
 ```
@@ -88,13 +88,6 @@ If none of the above arguments is provided, the script will perform all evaluati
 nohup python -u run_cmd.py --model CNNTransformer-Seq --dataset DFS-Selected60-filter --device 0 > TDD-TCNN-full.output 2>&1 &
 nohup python -u run_cmd.py --model CNNTransformer-Seq --dataset DFS-Selected60-filter-code --device 0 > TDD-TCNN-code.output 2>&1 & 
 nohup python -u run_cmd.py --model CNNTransformer-Seq --dataset DFS-Selected60-filter-comment --device 0 > TDD-TCNN-comment.output 2>&1 & 
-```
-
-### RQ-Embedding 
-```bash
-nohup python -u train_embeddings.py --output_dir embeddings/ --embedding_type all > train_embeddings.output 2>&1 &
-nohup python -u run_cmd.py --model CNNTransformer-Seq --dataset DFS-Selected60 
-    --embedding_strategy CBOW --within_project_only --device 0 > embedding_random.output 2>&1 &
 ```
 
 ### RQ-DFS & BFS
