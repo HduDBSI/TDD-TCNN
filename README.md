@@ -30,7 +30,7 @@ Source code and data for our paper "Method-level Technical Debt Detection based 
 The dataset consists of the following project versions (as listed in the paper). Note that these are based on official source release archives (stable releases), not specific git commit snapshots.
 
 - **Ant 1.7**  
-  https://mvnrepository.com/artifact/org.apache.ant/ant/1.7.1
+  https://mvnrepository.com/artifact/org.apache.ant/ant/1.7.0
 
 - **ArgoUML 0.34**  
   https://github.com/JavaQualitasCorpus/argouml-0.34
@@ -47,10 +47,10 @@ The dataset consists of the following project versions (as listed in the paper).
 - **JFreeChart 1.0.19**  
   https://sourceforge.net/projects/jfreechart/files/1.%20JFreeChart/1.0.19/
 
-- **JMeter 2.1**  
-  https://archive.apache.org/dist/jakarta/jmeter/source/jakarta-jmeter-2.1_src.tgz
+- **JMeter 2.10**  
+  https://github.com/botelhojp/apache-jmeter-2.10
 
-- **JRuby 1.4**  
+- **JRuby 1.4.0**  
   https://www.jruby.org/files/downloads/1.4.0/index.html
 
 - **SQuirrel 3.0.3**  
