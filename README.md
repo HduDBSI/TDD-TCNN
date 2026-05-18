@@ -53,8 +53,8 @@ The dataset consists of the following project versions (as listed in the paper).
 - **JRuby 1.4**  
   https://www.jruby.org/files/downloads/1.4.0/index.html
 
-- **SQuirrel 3.3**  
-  https://sourceforge.net/projects/squirrel-sql/files/1-stable/3.3.0/squirrel-sql-3.3.0-install.jar/download
+- **SQuirrel 3.0.3**  
+  https://sourceforge.net/projects/squirrel-sql/files/1-stable/3.0.3/
 
 
 ## Reproduction Instructions
