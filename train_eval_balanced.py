@@ -171,9 +171,9 @@ def evaluate(config, model, data_iter, test=False):
     if test:
         report = metrics.classification_report(labels_all, predict_all, target_names=config.class_list, digits=4)
         confusion = metrics.confusion_matrix(labels_all, predict_all)
-        test_precision = precision_score(labels_all,predict_all)
-        test_recall = recall_score(labels_all,predict_all)
-        test_f1 = f1_score(labels_all,predict_all)
+        test_precision = precision_score(labels_all,predict_all, average='macro')
+        test_recall = recall_score(labels_all,predict_all, average='macro')
+        test_f1 = f1_score(labels_all,predict_all, average='macro')
         # test_acc = accuracy_score(labels_all,predict_all)
         # test_auc = roc_auc_score(labels_all,predict_all)
         return acc, loss_total / len(data_iter), report, confusion,test_precision,test_recall,test_f1
