@@ -175,9 +175,9 @@ def evaluate(config, model, data_iter, test=False):
             digits=4
         )
         confusion = metrics.confusion_matrix(labels_all, predict_all)
-        test_precision = precision_score(labels_all, predict_all, zero_division=0)
-        test_recall = recall_score(labels_all, predict_all, zero_division=0)
-        test_f1 = f1_score(labels_all, predict_all, zero_division=0)
+        test_precision = precision_score(labels_all, predict_all, average='macro', zero_division=0)
+        test_recall = recall_score(labels_all, predict_all, average='macro', zero_division=0)
+        test_f1 = f1_score(labels_all, predict_all, average='macro', zero_division=0)
 
         return acc, loss_total / len(data_iter), report, confusion, test_precision, test_recall, test_f1
 
